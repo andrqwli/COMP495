@@ -2,6 +2,9 @@ const problemData = require('./problemsArray.json');
 const submissionData = require("./submissionsArray.json");
 const oneInputProblemData = require("./oneInputProblems.json");
 const submissionsByProblemData = require("./submissionsByProblem.json");
+const oneInputSubmissionData = require("./oneInputSubmissions.json");
+const pcan = require('./pcan');
+const acorn = require('../MACHLEARN/acorn');
 
 
 function processProblems() {
@@ -125,6 +128,9 @@ function oneInputSubmission() {
             console.log(problem._id.$oid);
         } else {
             submissionsByProblemData[problem._id.$oid].forEach((submission) => {
+                // var code = submission.code;
+                // console.log(code);
+                // submission.facts = pcan.collectStructureStyleFacts(acorn.parse(code));
                 if (submission.correctness.correct == 1) {
                     ret.get(problem._id.$oid).correct.push(submission);
                 } else {
@@ -153,4 +159,33 @@ function oneInputSubmission() {
 
 }
 
-oneInputSubmission();
+function addFacts() {
+    var problemIds = [
+        "540e6754cd837ce46e7d899d", // for loop output
+        "544a3ed88afe161613542b90", // fizzbuzz array
+    ];
+
+    var retObj = {};
+
+    problemIds.forEach((id) => {
+        retObj[id] = oneInputSubmissionData[id];
+        retObj[id].correct.forEach(submission => {
+            var AST = acorn.parse(submission.code);
+            var facts = pcan.collectStructureStyleFacts(AST);
+            submission.facts = facts;
+        })
+        retObj[id].incorrect.forEach(submission => {
+            var AST = acorn.parse(submission.code);
+            var facts = pcan.collectStructureStyleFacts(AST);
+            submission.facts = facts;
+        })
+    })
+
+    var fs = require('fs');
+    fs.writeFile("submissionsWithFacts.json", JSON. stringify(retObj, null, 4), function(err, result) {
+        if(err) console.log('error', err);
+    })
+
+}
+
+addFacts();

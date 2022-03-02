@@ -1,0 +1,2630 @@
+{
+    "540e6754cd837ce46e7d899d": {
+        "text": "Write a program that will prompt the user for a positive integer, and then produce output that looks like this:body: 0\nbody: 1\nbody: 2\n . . .\nbody: N-1\nwhere N is the number the user gave.\n \nFor example, if the user gives number 4 as input, then the program produces 4 lines of output, with the lines numbered 0 through 3.\nIt's no secret you will do this with a for loop. Each time the body executes it will print out (alert) the message \"body:  \" followed by the appropriate\ninteger.  You should use the loop index variable as your body execution counter. The main issue is to get the start/stop/increment loop parameters set up \nto count properly.\nStyle: Use one for loop, and no other loops.\n",
+        "correct": [
+            {
+                "submissionId": "592214c6a38faa76408c6b47",
+                "user": "stotts",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var un;\n  var avg = 0;\n  un = Number(prompt(\"pos int?\"));\n  for ( var k=0; k<un; k++) {\n\n    alert(\"body: \" + k);\n  }\n\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "593bf871c28ced7e128a6eb9",
+                "user": "stotts",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var un;\n  var avg = 0;\n  un = Number(prompt(\"pos int?\"));\n  for ( var k=0; k<un; k++) {\n    alert(\"body: \" + k);\n  }\n\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "593bf8b9c28ced7e128a6ebb",
+                "user": "stotts",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var uNum = Number(prompt(\"give a positive integer\"));\n \n  for (var i=0; i<uNum; i++) {\n \n  alert (\"body: \" + i);\n  }}\n\nmyMain();\n\n/*\n\"use strict\";\n\nfunction myMain() {\n  var un;\n  var avg = 0;\n  un = Number(prompt(\"pos int?\"));\n  for ( var k=0; k<un; k++) {\n    alert(\"body: \" + k);\n  }\n\n}\n\nmyMain();\n*/",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "593bf8c5c28ced7e128a6ebc",
+                "user": "stotts",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var uNum = Number(prompt(\"give a positive integer\"));\n \n  for (var i=0; i<uNum; i++) {\n \n  alert (\"body: \" + i);\n  }}\n\nmyMain();\n\n/*\n\"use strict\";\n\nfunction myMain() {\n  var un;\n  var avg = 0;\n  un = Number(prompt(\"pos int?\"));\n  for ( var k=0; k<un; k++) {\n    alert(\"body: \" + k);\n  }\n\n}\n\nmyMain();\n*/",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a89f08ccce6d6673667e506",
+                "user": "destroud",
+                "code": "\"use strict\";\n\nfunction myMain() {\n\n  var uNum = Number(prompt(\"give me a number\"));\n  var count = 0;\n  \n  for ( var n=0;  n<uNum ;  n++ ) { \n    alert(\"body: \"+ count); \n    count = count + 1;\n  }\n\n}\n \n\n\n  myMain();\n\n\n\n\n\n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a8f1af9cce6d6673667e627",
+                "user": "kristen5",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"give a positive number\"));\n  var count=0; \n  for (var i=0;i<uNum;i++){ \n    alert(\"body: \" + count++);}\n  \n \n  \n}\n\nmyMain(); ",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a70005074dd43fe0bb9a50f",
+                "user": "cjcow56",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var num = Number(prompt(\"give a number\"));\n    for ( var i=0;  i<= (num-1);  i++ ) { \n      alert(\"body: \" + i);\n  }\n\t\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a70ea3074dd43fe0bb9a544",
+                "user": "noahnoah",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"number?\"));\n  var count = 0;\n  for (var n = 0; n < uNum; n++ ) {\n    alert(\"body: \" + count);\n        count = count + 1\n}\n}\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a7155b874dd43fe0bb9a566",
+                "user": "g297",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"enter a positive integer\"));\n  for ( var n = 0; n<uNum; n++  ){\n  alert (\"body: \" + n);\n  }\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a728b7c74dd43fe0bb9a5a1",
+                "user": "andrew10",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"Please provide a number:\"));\n  for ( var i=0;  i<uNum;  i++ ) { \n    alert(\"body: \"+i); \n  }\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a73237074dd43fe0bb9a5a6",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var uNum= Number(prompt(\"Give a positive integer\"));\n  \n  var count = 0\n for ( var i = 1;  i <= uNum;  i++ ) { \n   \n   count = i-1; \n\n   alert (\"body: \" + count );  \n }\n \n  \n}\nmyMain ();\n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a75015074dd43fe0bb9a62b",
+                "user": "paigeall",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var num = Number(prompt(\"give a positive integer\") );  \n  var count = 0;  \n  for ( var i=0;  i<num;  i++ ) { \n    count = i+1;\n    alert(\"body: \" + (count-1)); \n \n  }\n}\n\n\nmyMain () ; \n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a75ecf574dd43fe0bb9a64e",
+                "user": "mshear",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var input = Number(prompt(\"positive\"));\n  for ( var i=0; i<input; i++ ) {\n    alert(\"body: \" + i);\n  }\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a77302d74dd43fe0bb9a678",
+                "user": "rngreene",
+                "code": "\"use strict\";\n  \n  function myMain() {\n     var uNum = Number(prompt(\"give us a positive integer\"));\n     var count = 1;\n     for ( var n=1;  n<=uNum; n++ ) { \n     count = (n - 1); \n     alert(\"body: \" + count);\n  }\n  \n    \n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a776a2b74dd43fe0bb9a6ab",
+                "user": "khbrock",
+                "code": "\"use strict\";\n\nfunction myMain () {\n\tvar uNum = Number(prompt( \"Give a number\"));\t\n  \tfor ( var i=0;  i<uNum;  i++ ) { \n      alert (\"body: \"+ i); \n  }\n\t\n  \n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a776c7e74dd43fe0bb9a6b0",
+                "user": "masonma",
+                "code": "\"use strict\";\nfunction myMain() { \n  var k = Number(prompt(\"Give us a positive number\"));\n   for ( var i=0;  i<k;  i++ ) { \n     alert(\"body: \" + i); \n  }\n}\nmyMain();\n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a73233974dd43fe0bb9a5a5",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var N= Number(prompt(\"Give a positive integer\"));\n  \n  var count = 0\n for ( var i = 1;  i <= N;  i++ ) { \n   \n   count = i-1; \n\n   alert (\"body: \" + count );  \n }\n \n  \n}\nmyMain ();\n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a77b1ef74dd43fe0bb9a6ed",
+                "user": "parks17",
+                "code": "\"use strict\";\nfunction myMain() {\n  var k = Number(prompt(\"Give us a positive number\"));\n  for ( var i=0; i<k; i++ ) {\n    alert(\"body: \" + i);\n  }\n}\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a77e4be74dd43fe0bb9a719",
+                "user": "yxu27",
+                "code": "\"use strict\";\nfunction myMain() {\n \n  var a = Number(prompt(\"a?\"));\n  \n  \nfor ( var i=0;  i<a;  i++ ) { \n  alert(\"body: \" + i); \n  }\n  \n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a7d4e62cce6d6673667e249",
+                "user": "aaronlle",
+                "code": "\"use strict\";\nfunction myMain() {\n  var x = Number(prompt(\"number?\"));\n  var start = 0;\n  for (var i=0;  i<x;  i++) { \n    alert(\"body: \" +i);\n    }\n  \n}\nmyMain();\n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a9b1c42e7c26488726d3738",
+                "user": "watsonsl",
+                "code": "\"use strict\" ;\n\nfunction myMain ( ) {\n  var N = Number ( prompt (\"give a positive integer.\"));\n  \n       for ( var n=0;  n<=(N-1);  n++ ) { \n       var list = (\n     \"body: \"+ n\n              \n              ) ; \n         \n  alert (list);  \n     \n     }    \n       \n\n\n   }\n\nmyMain () ;\n\n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a7fa1f0cce6d6673667e2b6",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"Number for loops please\"));\n  for ( var i=0;  i<=(uNum-1);  i++ ) { \n    alert (\"body: \" + i);\n  \n  }\n  \n  \n\n}\n\n\nmyMain();\n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5aff1d8cb72190495d1aebe5",
+                "user": "saumil98",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var uNum = Number(prompt(\"give a number\"));\n  var fact = 0;\n  for ( var n=0; n<uNum; n++ ) {\n    alert(\"body: \" + n);\n  }\n}\nmyMain(); ",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5ab6b0f977656f940f841824",
+                "user": "taywhit",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var num = Number(prompt(\"give a positive number\")); \n  for (var i = 0; i<num; i++) { \n    alert(\"body: \"+ i);\n     \n  }\n  \n}\n\nmyMain ();\n\n\n\n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            }
+        ],
+        "incorrect": [
+            {
+                "submissionId": "5920f828a38faa76408c6af0",
+                "user": "stotts",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var N = Number(prompt(\"number?\"));\n  for (i=0; i<N; i++) {\n    alert(\"body: \" + i);\n  }\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 0,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5920f833a38faa76408c6af1",
+                "user": "stotts",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var N = Number(prompt(\"number?\"));\n  for (var i=0; i<N; i++) {\n    alert(\"body: \" + i);\n  }\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a81eb1fcce6d6673667e3d1",
+                "user": "isaiahk",
+                "code": "\"use strict\";\n\nfunction myMain () {\nvar N = Number(prompt(\"Give positive integer\"));\n  body: 0\n  body: 1\n  body: 2\n  body: N-1\n}\n  \nmyMain ();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 0
+                },
+                "facts": {
+                    "nFLInit": 0,
+                    "nFLVarInit": 0,
+                    "nFLIncS": 0,
+                    "nAccInit": 0,
+                    "nAS": 0
+                }
+            },
+            {
+                "submissionId": "5a81ec15cce6d6673667e3d2",
+                "user": "isaiahk",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var N = Number(prompt(\"Give a positive integer\"));\n  for ( var N=N-4; N<=2;  N++ ) { \n    alert( N ); \n  }\n  \n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a81ec4dcce6d6673667e3d3",
+                "user": "isaiahk",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var N = Number(prompt(\"Give a positive integer\"));\n  for ( var N=N-3; N<=3;  N++ ) { \n    alert( N-1 ); \n  }\n  \n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a81eefdcce6d6673667e3d4",
+                "user": "isaiahk",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var N = Number(prompt(\"Give a positive integer\"));\n  for ( var N=N-4; N<=3;  N++ ) { \n    alert( N ); \n  }\n  \n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a81f06acce6d6673667e3d5",
+                "user": "isaiahk",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var N = Number(prompt(\"Give a positive integer\"));\n  for ( var N=N-4; N<=3;  N++ ) { \n    alert(\"body:\");\n    alert( N ); \n  }\n  \n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 2
+                }
+            },
+            {
+                "submissionId": "5a83103ecce6d6673667e3da",
+                "user": "isaiahk",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var N = Number(prompt(\"Give a positive integer\"));\n  for ( var N=N-4; N<=3;  N++ ) { \n    alert(\"body:\"); \n  }\n  alert(\"N-1\");\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 2
+                }
+            },
+            {
+                "submissionId": "5a83108bcce6d6673667e3db",
+                "user": "isaiahk",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var N = Number(prompt(\"Give a positive integer\"));\n  for ( var N=N-4; N<=3;  N++ ) { \n    alert(\"body:\");\n    alert( N );\n  }\n  alert(\"N-1\");\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 3
+                }
+            },
+            {
+                "submissionId": "5a831da7cce6d6673667e3dc",
+                "user": "isaiahk",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var N = Number(prompt(\"Give a positive integer\"));\n  for ( var N=N-4; N<=3;  N++ ) { \n    alert(\"body:\"); alert( N );\n  }\n  alert(\"N-1\");\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 3
+                }
+            },
+            {
+                "submissionId": "5a831deccce6d6673667e3dd",
+                "user": "isaiahk",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var N = Number(prompt(\"Give a positive integer\"));\n  for ( var N=N-4; N<=3;  N++ ) { \n    alert(\"body: \" + N );\n  }\n  alert(\"N-1\");\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 2
+                }
+            },
+            {
+                "submissionId": "5a89f044cce6d6673667e505",
+                "user": "destroud",
+                "code": "\"use strict\";\n\nfunction myMain() {\n\n  var uNum = Number(prompt(\"give me a number\"));\n  var count = 0;\n  \n  for ( var n=0;  n<uNum ;  n++ ) { \n    alert(count); \n    count = count + 1;\n  }\n\n}\n \n\n\n  myMain();\n\n\n\n\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a8f1a92cce6d6673667e625",
+                "user": "kristen5",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"give a positive number\"));\n  var count=1; \n  for (var i=0;i<=uNum;i++){ alert(\"body: \" + count++);}\n  \n \n  \n}\n\nmyMain(); ",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a8f1aa1cce6d6673667e626",
+                "user": "kristen5",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"give a positive number\"));\n  var count=0; \n  for (var i=0;i<=uNum;i++){ alert(\"body: \" + count++);}\n  \n \n  \n}\n\nmyMain(); ",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a9084e4cce6d6673667e652",
+                "user": "isaiahk",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var N = Number(prompt(\"Give a positive integer\"));\n  for ( var i=N+1; N<3;  N++ ) { \n    alert(\"body: \" + N );\n  }\n  alert(\"N-1\");\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 2
+                }
+            },
+            {
+                "submissionId": "5a908595cce6d6673667e654",
+                "user": "isaiahk",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var N = Number(prompt(\"Give a positive integer\"));\n  for ( var i=N-1; N<2;  N++ ) { \n    alert(\"body: \" + N );\n     \n  }\n  \n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a70e9fe74dd43fe0bb9a542",
+                "user": "noahnoah",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"number?\"));\n  var count = 0;\n  for (var n = 0; n < uNum; n++ ) {\n    count = count + 1\n    alert(\"body: \" + count);\n}\n}\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a71cfe474dd43fe0bb9a56c",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var unum = Number(prompt(\"Give a positive integer\"));\n  \n  var N = 0\n for ( var i = 1;  i <= unum;  i++ ) { \n   \n   N= i-1; \n   alert (\" body: \" + N );\n }\n \n  \n}\nmyMain ();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a71d09f74dd43fe0bb9a56d",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var N = Number(prompt(\"Give a positive integer\"));\n  \n  var count = 0\n for ( var i = 1;  i <= N;  i++ ) { \n   \n   count = i-1; \n   alert (\" body: \" + count );\n }\n \n  \n}\nmyMain ();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a73222974dd43fe0bb9a5a4",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var uNum= Number(prompt(\"Give a positive integer\"));\n  \n  var count = 0\n for ( var N = 1;  N <= uNum;  N++ ) { \n   \n   count = N-1; \n   alert (\" body: \" + count );\n }\n \n  \n}\nmyMain ();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a6b330b74dd43fe0bb9a398",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var unum = Number(prompt(\"give a positive integer\"));\n  \n  var count = 0\n for ( var n = 0;  n <= unum;  n-1 ) { \n   \n   count = count - 1; \n}\n   alert(count); \n  \n}\nmyMain ();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 0,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a6b4d3274dd43fe0bb9a399",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var unum = Number(prompt(\"give a positive integer\"));\n  \n  var count = 5\n for ( var n = 0;  n <= unum;  n++ ) { \n   \n   count = count - 1 ; \nalert(count);\n }\n    \n  \n}\nmyMain ();\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a6b6afc74dd43fe0bb9a39b",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain () {\n \n  var unum = Number(prompt(\"give a positive integer\"));\n  var count = 0\n  for ( var n=0; n<= unum; n++) {\n     count++;\n    alert (count)\n  }\n\n}\n\nmyMain ();\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a6b6b6074dd43fe0bb9a39c",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain () {\n \n  var unum = Number(prompt(\"give a positive integer\"));\n  var count = 0\n  for ( var n=0; n>= unum; n-1) {\n     count++;\n    alert (count)\n  }\n\n}\n\nmyMain ();\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 0,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a6b6b7974dd43fe0bb9a39d",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain () {\n \n  var unum = Number(prompt(\"give a positive integer\"));\n  var count = 0\n  for ( var n=0; n <= unum; n-1) {\n     count++;\n    alert (count)\n  }\n\n}\n\nmyMain ();\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 0,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a6b6bd574dd43fe0bb9a39e",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain () {\n \n  var unum = Number(prompt(\"give a positive integer\"));\n  var count = 0\n  for ( var n=1; n <= unum; n++) {\n     count= n-1;\n    alert (count)\n  }\n\n}\n\nmyMain ();\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a6b6f2a74dd43fe0bb9a39f",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var unum = Number(prompt(\"how many times for the loop execution?\"));\n  \n  var count = 0\n for ( var i = 1;  i <= unum;  i++ ) { \n   \n   count= i-1; \nalert (count);\n }\n \n  \n}\nmyMain ();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a73cf5774dd43fe0bb9a60b",
+                "user": "paigeall",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var num = Number(prompt(\"give a positive integer\") );  \n  var count = 0;  \n  for ( var i=0;  i<=num;  i++ ) { \n    count = i+1;\n  }\n    alert(count); \n    alert(num-1); \n  }\n\n\nmyMain () ; \n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 2
+                }
+            },
+            {
+                "submissionId": "5a75012474dd43fe0bb9a62a",
+                "user": "paigeall",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var num = Number(prompt(\"give a positive integer\") );  \n  var count = 0;  \n  for ( var i=0;  i<=num;  i++ ) { \n    count = i+1;\n    alert(\"body: \" + (count-1)); \n \n  }\n}\n\n\nmyMain () ; \n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a75ec8a74dd43fe0bb9a64b",
+                "user": "mshear",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var input = Number(prompt(\"positive\"));\n  for ( var i=1; i<input; i++ ) {\n    alert(i);\n  }\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a75eca474dd43fe0bb9a64c",
+                "user": "mshear",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var input = Number(prompt(\"positive\"));\n  for ( var i=1; i<input; i++ ) {\n    alert(\"body:\" + i);\n  }\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a75ecdc74dd43fe0bb9a64d",
+                "user": "mshear",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var input = Number(prompt(\"positive\"));\n  for ( var i=1; i<input; i++ ) {\n    alert(\"body: \" + i);\n  }\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a764f3874dd43fe0bb9a669",
+                "user": "taywhit",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var uNum = Number(prompt(\"give a positive number\"));\n  var count = 0;\n  for (var n=0; n<=uNum; n++) {\n  count++;\n  \n  }\n  alert(count);\n}\nmyMain();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a764f6f74dd43fe0bb9a66a",
+                "user": "taywhit",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var uNum = Number(prompt(\"give a positive number\"));\n  var count = 0;\n  for (var n=0; n<=uNum; n++) {\n  count++;\n  \n  }\n  alert(count);\n}\nmyMain();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a77695574dd43fe0bb9a6a9",
+                "user": "khbrock",
+                "code": "\"use strict\";\n\nfunction myMain () {\n\tvar uNum = Number(prompt( \"Give a number\"));\t\n  \tfor ( var i=0;  i<uNum;  i++ ) { \n    alert (uNum); \n  }\n\t\n  \n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a7769a474dd43fe0bb9a6aa",
+                "user": "khbrock",
+                "code": "\"use strict\";\n\nfunction myMain () {\n\tvar uNum = Number(prompt( \"Give a number\"));\t\n  \tfor ( var i=0;  i<uNum;  i++ ) { \n    alert (i); \n  }\n\t\n  \n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a70e9c574dd43fe0bb9a541",
+                "user": "noahnoah",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"number?\"));\n  var count = 0;\n  for (var n = 0; n < uNum; n++ ) {\n    count = count + 1\n  alert(count);\n}\n}\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a70ea0a74dd43fe0bb9a543",
+                "user": "noahnoah",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"number?\"));\n  var count = 0;\n  for (var n = 0; n < uNum; n++ ) {\n    count = count \n    alert(\"body: \" + count);\n}\n}\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a7155a674dd43fe0bb9a565",
+                "user": "g297",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"enter a positive integer\"));\n  for ( var n = 0; n<uNum; n++  ){\n  alert (\"body:\" + n);\n  }\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a73213274dd43fe0bb9a5a3",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var N = Number(prompt(\"Give a positive integer\"));\n  \n  var count = 0\n for ( var i = 0;  i <= N;  i++ ) { \n   \n   count = i-1; \n   alert (\" body: \" + count );\n }\n \n  \n}\nmyMain ();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a7d4ca7cce6d6673667e247",
+                "user": "aaronlle",
+                "code": "\"use strict\";\nfunction myMain() {\n  var x = Number(prompt(\"number?\"));\n  for (var i=0;  i<=x;  i++) { \n    x++;\n    alert(x);\n    }\n  \n}\nmyMain();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a7d4e41cce6d6673667e248",
+                "user": "aaronlle",
+                "code": "\"use strict\";\nfunction myMain() {\n  var x = Number(prompt(\"number?\"));\n  var start = 0;\n  for (var i=0;  i<x;  i++) { \n    alert(i);\n    }\n  \n}\nmyMain();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a9b1a6be7c26488726d3736",
+                "user": "watsonsl",
+                "code": "\"use strict\" ;\n\nfunction myMain ( ) {\n  var N = Number ( prompt (\"give a positive integer.\"));\n  \n     var list = 0; \n     for ( var n=0;  n<=(N-1);  n++ ) { \n       \n  \n       \n       var body = \"body: \"+(N-1) ;\n     }\n  alert (body);\n\n\n   }\n\nmyMain () ;\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a9b1b3ce7c26488726d3737",
+                "user": "watsonsl",
+                "code": "\"use strict\" ;\n\nfunction myMain ( ) {\n  var N = Number ( prompt (\"give a positive integer.\"));\n  \n       for ( var n=0;  n<=(N-1);  n++ ) { \n       \n   var list = (\"body: \"+ n) ;     \n  alert (list);\n     }    \n       var body = \"body: \"+(N-1) ;\n     \n  alert (body);\n\n\n   }\n\nmyMain () ;\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 2
+                }
+            },
+            {
+                "submissionId": "5a7f9b74cce6d6673667e2a6",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n   var sum = 0;\n   var n=4;\n   for (var i=1; i<=n; i++) {\n      sum = sum + i;\n   }\n   alert(sum);\n}\n\nmyMain();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a7f9e6acce6d6673667e2af",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"Number for loops please\"));\n  var count = 0\n  for ( var i=0;  i<=uNum;  i++ ) { \n    count++; \n  }\n  alert (count);\n\n}\n\n\nmyMain();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a7f9e8bcce6d6673667e2b0",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"Number for loops please\"));\n  var count = 0\n  for ( var i=0;  i<=(uNum-1);  i++ ) { \n    count++; \n  }\n  alert (count);\n\n}\n\n\nmyMain();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a7f9ef6cce6d6673667e2b1",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"Number for loops please\"));\n  var count = 0\n  for ( var i=1;  i<=(uNum-1);  i++ ) { \n    count++; \n  }\n  alert (\"body: \" + count);\n  \n  \n\n}\n\n\nmyMain();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a7f9f88cce6d6673667e2b2",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var uNum = Number(prompt(\"Number for loops please\"));\n  var count = 0\n  for ( var i=1;  i<=(uNum-1);  i++ ) { \n    count++; \n    alert (\"body: \" + count);\n  \n  }\n  \n  \n\n}\n\n\nmyMain();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a7fa055cce6d6673667e2b3",
+                "user": "taywhit",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var uNum = Number(prompt(\"give a positive number\"));\n  var counter = 0;\n  for (var n=0; n<=uNum; n++) {\n  counter++;\n    \n  }\n  alert(counter);\n}\n\nmyMain ();\n\n\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a7fa145cce6d6673667e2b4",
+                "user": "taywhit",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var uNum = Number(prompt(\"give a positive number\"));\n  var counter = 0;\n  for (var n=1; n<=uNum; n=n-1) {\n  counter++;\n    \n  }\n  alert(counter);\n}\n\nmyMain ();\n\n\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 0,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5a7fa19fcce6d6673667e2b5",
+                "user": "taywhit",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var uNum = Number(prompt(\"give a positive number\"));\n  var counter = 0;\n  for (var n=0; n<uNum; n++) {\n  counter++;\n    \n  }\n  alert(counter);\n}\n\nmyMain ();\n\n\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5aff1d25b72190495d1aebe2",
+                "user": "saumil98",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var uNum = Number(prompt(\"give a number\"));\n  var fact = 0;\n  for ( var n=0; n<uNum; n++ ) {\n    alert(n);\n  }\n}\nmyMain(); ",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5aff1d52b72190495d1aebe3",
+                "user": "saumil98",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var uNum = Number(prompt(\"give a number\"));\n  var fact = 0;\n  for ( var n=0; n<uNum; n++ ) {\n    alert(\"body\");\n  }\n}\nmyMain(); ",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5aff1d73b72190495d1aebe4",
+                "user": "saumil98",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var uNum = Number(prompt(\"give a number\"));\n  var fact = 0;\n  for ( var n=0; n<uNum; n++ ) {\n    alert(\"body\" + n);\n  }\n}\nmyMain(); ",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5ab6b02a77656f940f841820",
+                "user": "taywhit",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var num = Number(prompt(\"give a positive number\")); \n  for (var i = 0; i<num; i++) { \n    alert(i);\n  }\n  \n}\n\nmyMain ();\n\n\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5ab6b0d277656f940f841822",
+                "user": "taywhit",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var num = Number(prompt(\"give a positive number\")); \n  for (var i = 0; i<num; i++) { \n    alert(\"body:\"+ i);\n     \n  }\n  \n}\n\nmyMain ();\n\n\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5ab6b00177656f940f84181e",
+                "user": "taywhit",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var num = Number(prompt(\"give a positive number\")); \n  for (var i = 0; i<num; i++) { \n  }\n  alert (i);\n}\n\nmyMain ();\n\n\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5ab6b0b277656f940f841821",
+                "user": "taywhit",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var num = Number(prompt(\"give a positive number\")); \n  for (var i = 0; i<num; i++) { \n    alert(\"body:\");\n          alert(i);\n  }\n  \n}\n\nmyMain ();\n\n\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 2
+                }
+            }
+        ],
+        "correctCount": 24,
+        "incorrectCount": 59,
+        "totalCount": 83
+    },
+    "544a3ed88afe161613542b90": {
+        "text": "Arrays: Organizing data \nWrite a program to do the FizzBuzz problem (a former brick).  It is in the while loop section, but this time use a for loop to compute it.\nAlso this time, instead of printing out the numbers and \"fizz\" etc., put the values into an array.  Make an array of 31 items (slots 0 to 30).\nLet's also just put 0 into slot 0 so we dont have to worry about if 0 is a multiple of 3 or 5.  \nThen go from slot 1 on up and put either the number into the array location (if it is not a multiple\nof 3 or 5), or put the appropriate \"fizz\", \"buzz\", or \"fizzbuzz\" into the array location.\nWhen done, print out the 4th, 11th, 18th, and last elements (each with a separate alert).\n",
+        "correct": [ 
+            {
+                "submissionId": "5949fbcff86d54111435ce16",
+                "user": "stotts",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var n=1;\n  var fb =[0];\n  for (var n=1; n<=30; n++) {\n    fb[n] = fizzbuzz(n);\n  }\n  alert(fb[3]);\n  alert(fb[10]);\n  alert(fb[17]);\n  alert(fb[fb.length-1]);\n}\n\nfunction fizzbuzz ( n ) {\n  if ( (n%3===0) && (n%5===0 ) ) { return \"fizzbuzz\"; }\n  else if ( n%3===0 ) { return \"fizz\"; }\n  else if ( n%5===0 ) { return \"buzz\"; }\n  else { \n    return n;\n  }\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "596d0fb7a69c32e7768f3361",
+                "user": "stotts",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [];\n  arr[0]=0\n  for (var i=1; i<31; i++) {\n    if (i%3===0 && i%5===0) {arr [i]= \"fizzbuzz\";}\n    else if (i%3===0) {arr[i]=\"fizz\";}\n    else if (i%5===0) {arr[i]=\"buzz\";}\n    else arr[i]=i;\n     \n  }\n  alert (arr[4-1]);\n  alert (arr[11-1]);\n  alert (arr[18-1]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();\n\n\"use strict\";\n\nfunction myMain() {\n  var n=1;\n  var fb =[0];\n  for (var n=1; n<=30; n++) {\n    fb[n] = fizzbuzz(n);\n  }\n  alert(fb[3]);\n  alert(fb[10]);\n  alert(fb[17]);\n  alert(fb[fb.length-1]);\n}\n\nfunction fizzbuzz ( n ) {\n  if ( (n%3===0) && (n%5===0 ) ) { return \"fizzbuzz\"; }\n  else if ( n%3===0 ) { return \"fizz\"; }\n  else if ( n%5===0 ) { return \"buzz\"; }\n  else { \n    return n;\n  }\n}\n\n//myMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 0
+                },
+                "facts": {
+                    "nFLInit": 2,
+                    "nFLVarInit": 2,
+                    "nFLIncS": 2,
+                    "nAccInit": 0,
+                    "nAS": 8
+                }
+            },
+            {
+                "submissionId": "596d0fc2a69c32e7768f3362",
+                "user": "stotts",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [];\n  arr[0]=0\n  for (var i=1; i<31; i++) {\n    if (i%3===0 && i%5===0) {arr [i]= \"fizzbuzz\";}\n    else if (i%3===0) {arr[i]=\"fizz\";}\n    else if (i%5===0) {arr[i]=\"buzz\";}\n    else arr[i]=i;\n     \n  }\n  alert (arr[4-1]);\n  alert (arr[11-1]);\n  alert (arr[18-1]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();\n\n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "597f38edc7423e5827d50146",
+                "user": "stotts",
+                "code": "\"use strict\"\nfunction fizzbuzz(n){\n        if(n%3==0 && n%5!=0){\n\t\t\tn=\"fizz\"\n\t\t}\n\t\t\n\t\telse if(n%5==0 && n%3!=0){\n\t\t\tn=\"buzz\"\n\t\t}\n\t\t\n\t\telse if(n%3==0 && n%5==0){\n\t\t\tn=\"fizzbuzz\"\n\t\t}\n    \n    \treturn n;\n}\n\nfunction my_main() {\n  var arr=[];\n  var q=30;\n  for (var x=0; x<=q; x++) {\n    if(x==0){\n      arr[x]=0\n    }\n    \n    else{\n    arr[x]=fizzbuzz(x)\n    }\n  }\n  //alert(arr);\n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[17]);\n  alert(arr[30]);\n}\n\nmy_main();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa325d977656f940f841535",
+                "user": "paigeall",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [] ; \n  var total = 31; \n  for (var i=0; i<(total); i++) {\n    arr[i] = fizzbuzz(i); \n  \n  }\n  arr[0] = 0; \n  alert(arr[3]);\n  alert(arr[10]); \n  alert(arr[17]);\n  alert(arr[arr.length-1]); \n  \n}\n\n\nfunction fizzbuzz (x) {\n    if ((x%3) === 0 & (x%5) === 0) {x = \"fizzbuzz\"} \n    else if ((x%3) === 0) {x = \"fizz\"} \n    else if ((x%5) === 0) {x = \"buzz\"} \n  else {x=x}; \n  return x; \n  } \n\nmyMain();\n\n  ",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa4444677656f940f84157e",
+                "user": "khbrock",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var NumSlots = 31;\n  for (var i=0; i<NumSlots; i++) {\n    if (i===0) {arr[i]=i;}\n    else if (i%3 === 0 && i%5 ===0) {arr[i]=\"fizzbuzz\";}\n    else if (i%3 === 0) {arr[i]=\"fizz\";}\n    else if (i%5 === 0) {arr[i]=\"buzz\";}\n    else {arr[i]=i;}\n  }\n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[17]);\n  alert(arr[arr.length-1]);\n}\n\nmyMain();\n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa5c5ed77656f940f8415b9",
+                "user": "andrew10",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  \n  var fizzBuzz = [ ] ;\n  \n  fizzBuzz[0] = 0;\n  \n  for (var i = 1; i<=30; i++) {\n    \n    if ( i%15 == 0 )  { fizzBuzz[i]=\"fizzbuzz\"; }\n    else if ( i%3 == 0 )  { fizzBuzz[i]=\"fizz\"; }\n    else if ( i%5 == 0 )  { fizzBuzz[i]=\"buzz\"; }\n    else { fizzBuzz[i]=i; }\n    \n  }\n  alert(fizzBuzz[3]);\n  alert(fizzBuzz[10]);\n  alert(fizzBuzz[17]);\n  alert(fizzBuzz[30]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa5eaf077656f940f8415ec",
+                "user": "g297",
+                "code": "function myMain() {\n  var x = 1;\n  var arr = [0,];\n  for (x; x<31; x++){\n    if (((x%3) === 0) && ((x%5) === 0)) {\n      arr[x] = \"fizzbuzz\";\n      continue;\n    }\n    if ((x%3) === 0) {\n      arr[x] = \"fizz\";\n      continue;\n    }\n    if ((x%5) === 0) {\n      arr[x] = \"buzz\";\n      continue;\n    }\n    else arr[x] = x;\n  }\n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[17]);\n  alert(arr[30]);\n}\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 0
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 0,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa5eb0377656f940f8415ed",
+                "user": "g297",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var x = 1;\n  var arr = [0,];\n  for (x; x<31; x++){\n    if (((x%3) === 0) && ((x%5) === 0)) {\n      arr[x] = \"fizzbuzz\";\n      continue;\n    }\n    if ((x%3) === 0) {\n      arr[x] = \"fizz\";\n      continue;\n    }\n    if ((x%5) === 0) {\n      arr[x] = \"buzz\";\n      continue;\n    }\n    else arr[x] = x;\n  }\n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[17]);\n  alert(arr[30]);\n}\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 0,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa5ed8c77656f940f8415f4",
+                "user": "cjcow56",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [];\n  arr[0] = 0;\n  for (var i = 1; i < 31; i++) {\n    if ((i % 3 === 0) && (i % 5 === 0)) {arr[i] = \"fizzbuzz\";}\n    else if (i % 3 === 0) {arr[i] = \"fizz\";}\n    else if (i % 5 === 0) {arr[i] = \"buzz\";}\n    else {arr[i] = i;}\n  }\n  \n  \n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[17]);\n  alert(arr[arr.length-1]);\n    \n  \n  \n  \n}\n\n\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab198f377656f940f8416ec",
+                "user": "masonma",
+                "code": "\"use strict\";\nfunction myMain() {\n  var arr=[0,1,2,\"fizz\",4,\"buzz\",\"fizz\",7,8,\"fizz\",\"buzz\",11,\"fizz\",13,14,\"fizzbuzz\",16,17,\"fizz\",19,\"buzz\",\"fizz\",22,23,\"fizz\",\"buzz\",26,\"fizz\",28,29,\"fizzbuzz\"];\n\n    alert(arr[3]);\n    alert(arr[10]);\n    alert(arr[17]);\n    alert(arr[30]);\n  \n}\nmyMain();\n  \n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 0
+                },
+                "facts": {
+                    "nFLInit": 0,
+                    "nFLVarInit": 0,
+                    "nFLIncS": 0,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab19a7577656f940f8416f2",
+                "user": "masonma",
+                "code": "\"use strict\";\nfunction myMain() {\n  var arr=[];\n  for (var i=0; i<31; i++) {\n    arr[i]=i\n    if (i%3 === 0 && i%5 === 0) {arr[i]=\"fizzbuzz\";}\n    if (i%3 === 0 && i%5 !== 0) {arr[i]=\"fizz\";}\n    if (i%3 !== 0 && i%5 === 0) {arr[i]=\"buzz\";}\n      }\n      \n    alert(arr[3]);\n    alert(arr[10]);\n    alert(arr[17]);\n    alert(arr[30]);\n}\nmyMain();\n  \n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab3840377656f940f84177a",
+                "user": "aaronlle",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  for (var i=0; i<=30; i++) {\n    if((i%3 == 0) && (i%5==0)) { arr[i] = (\"fizzbuzz\"); }\n    else if(i%3 == 0) { arr[i] = (\"fizz\"); }\n    else if(i%5 == 0) { arr[i] = (\"buzz\"); }\n    else { arr[i] = i; }\n  }\n  \n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[17]);\n  alert(arr[arr.length-1]);\n}\n\nmyMain();\n\n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab5129277656f940f8417c6",
+                "user": "noahnoah",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var arr = [];\n  var int = 30;\n  for (var i = 0; i <= int; i++) {\n    if ((i % 3) === 0 && (i % 5) !== 0) {arr[i] = (\"fizz\")}\n    if ((i % 5) === 0 && (i % 3) !== 0) {arr[i] = (\"buzz\")}\n    if ((i % 3) === 0 && (i % 5) === 0) {arr[i] = (\"fizzbuzz\");}\n    if ((i % 3) !== 0 && (i % 5) !== 0) {arr[i] = i;}\n} \n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[17]);\n  alert(arr[30]);\n  \n}\n\nmyMain () ;",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5adcef563a109ccc0e74184e",
+                "user": "destroud",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var nums = [];\n  \n  nums.push(0);\n  \n  for (var i = 1; i <= 30; i++) {\n    nums.push(fizzBuzz(i));\n  }\n  \n  alert(nums[3]);\n  alert(nums[10]);\n  alert(nums[17]);\n  alert(nums[30]);\n}\n\nfunction fizzBuzz(num) {\n  var val;\n  \n  if ((num%3) == 0 && (num%5) == 0) {\n    val = \"fizzbuzz\";\n  }\n  else if ((num%3) == 0) {\n    val = \"fizz\";\n  }\n  else if ((num%5) == 0) {\n    val = \"buzz\";\n  }\n  else {\n    val = num;\n  }\n  \n  return val; \n}\n\nmyMain();\n",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aee69f83a109ccc0e741ab0",
+                "user": "parks17",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var i;\n  var array = [];\n  var value;\n  array[0] = 0;\n  for (i=1; i<31; i++) {\n    value = i;\n    if (value%3===0 && value%5===0) {array[i] = \"fizzbuzz\"}\n    else if (value%3===0) {array[i] = \"fizz\"}\n    else if (value%5===0) {array[i] = \"buzz\"}\n    else {array[i] = value}\n  }\n  alert(array[3]);\n  alert(array[10]);\n  alert(array[17]);\n  alert(array[30]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 1,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 0,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            }
+        ],
+        "incorrect": [
+            {
+                "submissionId": "596d0f57a69c32e7768f335f",
+                "user": "stotts",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [];\n  arr[0]=0\n  for (var i=1; i<31; i++) {\n    if (i%3===0 && i%5===0) {arr [i]= \"fizzbuzz\";}\n    else if (i%3===0) {arr[i]=\"fizz\";}\n    else if (i%5===0) {arr[i]=\"buzz\";}\n    else arr[i]=i;\n     \n  }\n  alert (arr[4]);\n  alert (arr[11]);\n  alert (arr[18]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "597f37bcc7423e5827d50144",
+                "user": "stotts",
+                "code": "\"use strict\"\nfunction fizzbuzz(n){\n        if(n%3==0 && n%5!=0){\n\t\t\tn=\"fizz\"\n\t\t}\n\t\t\n\t\telse if(n%5==0 && n%3!=0){\n\t\t\tn=\"buzz\"\n\t\t}\n\t\t\n\t\telse if(n%3==0 && n%5==0){\n\t\t\tn=\"fizzbuzz\"\n\t\t}\n    \n    \treturn n;\n}\n\nfunction my_main() {\n  var arr=[];\n  var q=30;\n  for (var x=0; x<=q; x++) {\n    if(x==0){\n      arr[x]=0\n    }\n    \n    else{\n    arr[x]=fizzbuzz(x)\n    }\n  }\n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[30]);\n}\n\nmy_main();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "597f38b7c7423e5827d50145",
+                "user": "stotts",
+                "code": "\"use strict\"\nfunction fizzbuzz(n){\n        if(n%3==0 && n%5!=0){\n\t\t\tn=\"fizz\"\n\t\t}\n\t\t\n\t\telse if(n%5==0 && n%3!=0){\n\t\t\tn=\"buzz\"\n\t\t}\n\t\t\n\t\telse if(n%3==0 && n%5==0){\n\t\t\tn=\"fizzbuzz\"\n\t\t}\n    \n    \treturn n;\n}\n\nfunction my_main() {\n  var arr=[];\n  var q=30;\n  for (var x=0; x<=q; x++) {\n    if(x==0){\n      arr[x]=0\n    }\n    \n    else{\n    arr[x]=fizzbuzz(x)\n    }\n  }\n  alert(arr);\n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[17]);\n  alert(arr[30]);\n}\n\nmy_main();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 5
+                }
+            },
+            {
+                "submissionId": "5a9ef9c1e7c26488726d382d",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr=[0, 1, 2, \"fizz\", 4, \"buzz\", \"fizz\", 7, 8, \"fizz\", \"buzz\", 11, \"fizz\", 13, 14, \"fizzbuzz\", \"fizz\", 17, \"fizz\", 19, \"buzz\", \"fizz\", 22, 23, \"fizz\", \"buzz\", \"fizz\", \"fizz\", 28, 29, \"fizzbuzz\"];\n\n  var n = 0;\n  var num = 30\n  \n  for (var i=0; i<num; i++) {\n    arr[i]=n;\n    num = n+1;\n  }\n  alert (arr[4]);\n  alert (arr[11]);\n  alert (arr[18]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5a9efaa9e7c26488726d382e",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr=[0, 1, 2, \"fizz\", 4, \"buzz\", \"fizz\", 7, 8, \"fizz\", \"buzz\", 11, \"fizz\", 13, 14, \"fizzbuzz\", \"fizz\", 17, \"fizz\", 19, \"buzz\", \"fizz\", 22, 23, \"fizz\", \"buzz\", \"fizz\", \"fizz\", 28, 29, \"fizzbuzz\"];\n\n  var n = 0;\n  \n  for (var i=0; i<arr.length; i++) {\n    arr[i]=n;\n    n = i+1\n  }\n  alert (arr[4]);\n  alert (arr[11]);\n  alert (arr[18]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5a9efac7e7c26488726d382f",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr=[0, 1, 2, \"fizz\", 4, \"buzz\", \"fizz\", 7, 8, \"fizz\", \"buzz\", 11, \"fizz\", 13, 14, \"fizzbuzz\", \"fizz\", 17, \"fizz\", 19, \"buzz\", \"fizz\", 22, 23, \"fizz\", \"buzz\", \"fizz\", \"fizz\", 28, 29, \"fizzbuzz\"];\n\n  var n = 0;\n  \n  for (var i=0; i<arr.length; i++) {\n    arr[i] = n;\n    n = n+1\n  }\n  alert (arr[4]);\n  alert (arr[11]);\n  alert (arr[18]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5a9efb31e7c26488726d3830",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr=[0, 1, 2, \"fizz\", 4, \"buzz\", \"fizz\", 7, 8, \"fizz\", \"buzz\", 11, \"fizz\", 13, 14, \"fizzbuzz\", \"fizz\", 17, \"fizz\", 19, \"buzz\", \"fizz\", 22, 23, \"fizz\", \"buzz\", \"fizz\", \"fizz\", 28, 29, \"fizzbuzz\"];\n\n  var n = 0;\n  \n  for (var i=0; i<arr.length; i++) {\n    n = arr[i];\n    \n  }\n  alert (arr[4]);\n  alert (arr[11]);\n  alert (arr[18]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5a9efc3ee7c26488726d3831",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr=[0, 1, 2, \"fizz\", 4, \"buzz\", \"fizz\", 7, 8, \"fizz\", \"buzz\", 11, \"fizz\", 13, 14, \"fizzbuzz\", \"fizz\", 17, \"fizz\", 19, \"buzz\", \"fizz\", 22, 23, \"fizz\", \"buzz\", \"fizz\", \"fizz\", 28, 29, \"fizzbuzz\"];\n\n  var n = 1;\n  \n  for (var i=0; i<arr.length; i++) {\n    n = arr[i];\n    \n  }\n  alert (arr[4]);\n  alert (arr[11]);\n  alert (arr[18]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5a9efc5ee7c26488726d3832",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr=[0, 1, 2, \"fizz\", 4, \"buzz\", \"fizz\", 7, 8, \"fizz\", \"buzz\", 11, \"fizz\", 13, 14, \"fizzbuzz\", \"fizz\", 17, \"fizz\", 19, \"buzz\", \"fizz\", 22, 23, \"fizz\", \"buzz\", \"fizz\", \"fizz\", 28, 29, \"fizzbuzz\"];\n\n  var n = 0;\n  \n  for (var i=0; i<arr.length; i++) {\n    n = arr[i]+1;\n    \n  }\n  alert (arr[4]);\n  alert (arr[11]);\n  alert (arr[18]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5a9efcf0e7c26488726d3833",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr=[0, 1, 2, \"fizz\", 4, \"buzz\", \"fizz\", 7, 8, \"fizz\", \"buzz\", 11, \"fizz\", 13, 14, \"fizzbuzz\", 16, 17, \"fizz\", 19, \"buzz\", \"fizz\", 22, 23, \"fizz\", \"buzz\", \"fizz\", \"fizz\", 28, 29, \"fizzbuzz\"];\n\n  var n = 0;\n  \n  for (var i=0; i<arr.length; i++) {\n    n = arr[i];\n    \n  }\n  alert (arr[4]);\n  alert (arr[11]);\n  alert (arr[18]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5a9efd2be7c26488726d3834",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr=[0, 1, 2, \"fizz\", 4, \"buzz\", \"fizz\", 7, 8, \"fizz\", \"buzz\", 11, \"fizz\", 13, 14, \"fizzbuzz\", 16, 17, \"fizz\", 19, \"buzz\", \"fizz\", 22, 23, \"fizz\", \"buzz\", 26, \"fizz\", 28, 29, \"fizzbuzz\"];\n\n  var n = 0;\n  \n  for (var i=0; i<arr.length; i++) {\n    n = arr[i];\n    \n  }\n  alert (arr[4]);\n  alert (arr[11]);\n  alert (arr[18]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5a9efe83e7c26488726d3835",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr=[0, 1, 2, \"fizz\", 4, \"buzz\", \"fizz\", 7, 8, \"fizz\", \"buzz\", 11, \"fizz\", 13, 14, \"fizzbuzz\", 16, 17, \"fizz\", 19, \"buzz\", \"fizz\", 22, 23, \"fizz\", \"buzz\", 26, \"fizz\", 28, 29, \"fizzbuzz\"];\n\n  var n = 0;\n  \n  for (var i=0; i<arr.length; i++) {\n    \n    \n  }\n  alert (arr[4]);\n  alert (arr[11]);\n  alert (arr[18]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5a9f0000e7c26488726d3836",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr=[0, 1, 2, \"fizz\", 4, \"buzz\", \"fizz\", 7, 8, \"fizz\", \"buzz\", 11, \"fizz\", 13, 14, \"fizzbuzz\", 16, 17, \"fizz\", 19, \"buzz\", \"fizz\", 22, 23, \"fizz\", \"buzz\", 26, \"fizz\", 28, 29, \"fizzbuzz\"];\n\n  var n = 0;\n  \n  for (var i=0; i<arr.length; i++) {\n    n = arr[i]-1;\n    \n  }\n  alert (arr[4]);\n  alert (arr[11]);\n  alert (arr[18]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5a9f038fe7c26488726d3838",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr=[0, 1, 2, \"fizz\", 4, \"buzz\", \"fizz\", 7, 8, \"fizz\", \"buzz\", 11, \"fizz\", 13, 14, \"fizzbuzz\", 16, 17, \"fizz\", 19, \"buzz\", \"fizz\", 22, 23, \"fizz\", \"buzz\", 26, \"fizz\", 28, 29, \"fizzbuzz\"];\n\n  \n  \n  for (var i=0; i<arr.length; i++) {\n    \n    \n  }\n  alert (arr[4]);\n  alert (arr[11]);\n  alert (arr[18]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5a9f0432e7c26488726d3839",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr=[0, 1, 2, \"fizz\", 4, \"buzz\", \"fizz\", 7, 8, \"fizz\", \"buzz\", 11, \"fizz\", 13, 14, \"fizzbuzz\", 16, 17, \"fizz\", 19, \"buzz\", \"fizz\", 22, 23, \"fizz\", \"buzz\", 26, \"fizz\", 28, 29, \"fizzbuzz\"];\n\n  \n  var n = 0\n  for (var i=0; i<arr.length; i++) {\n  arr[n] = i ;  \n    \n  }\n  alert (arr[4]);\n  alert (arr[11]);\n  alert (arr[18]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5a9f0484e7c26488726d383a",
+                "user": "landy321",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr=[0, 1, 2, \"fizz\", 4, \"buzz\", \"fizz\", 7, 8, \"fizz\", \"buzz\", 11, \"fizz\", 13, 14, \"fizzbuzz\", 16, 17, \"fizz\", 19, \"buzz\", \"fizz\", 22, 23, \"fizz\", \"buzz\", 26, \"fizz\", 28, 29, \"fizzbuzz\"];\n\n  \n  var n = 0\n  for (var n=0; n<arr.length; n++) {\n    arr[n];  \n    \n  }\n  alert (arr[4]);\n  alert (arr[11]);\n  alert (arr[18]);\n  alert (arr[arr.length-1]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa1e18a77656f940f84151f",
+                "user": "paigeall",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [] ; \n  var total = 31; \n  for (var i=0; i<(total); i++) {\n    arr[i] = fizzbuzz(i); \n  }\n  alert(arr[4]);\n  alert(arr[11]); \n  alert(arr[18]);\n  alert(arr[arr.length-1]); \n  \n}\n\n\nfunction fizzbuzz (x) {\n    if ((x%3) === 0 & (x%5) === 0) {x = \"fizzbuzz\"} \n    else if ((x%3) === 0) {x = \"fizz\"} \n    else if ((x%5) === 0) {x = \"buzz\"} \n  else {x=x}; \n  return x; \n  } \n\nmyMain();\n\n  ",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa1e1b877656f940f841522",
+                "user": "paigeall",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [] ; \n  var total = 31; \n  for (var i=0; i<(total); i++) {\n    arr[i] = fizzbuzz(i); \n    arr[0] = 0; \n  }\n  alert(arr[4]);\n  alert(arr[11]); \n  alert(arr[18]);\n  alert(arr[arr.length-1]); \n  \n}\n\n\nfunction fizzbuzz (x) {\n    if ((x%3) === 0 & (x%5) === 0) {x = \"fizzbuzz\"} \n    else if ((x%3) === 0) {x = \"fizz\"} \n    else if ((x%5) === 0) {x = \"buzz\"} \n  else {x=x}; \n  return x; \n  } \n\nmyMain();\n\n  ",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa1e1ed77656f940f841523",
+                "user": "paigeall",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [] ; \n  var total = 31; \n  for (var i=0; i<(total); i++) {\n    arr[i] = fizzbuzz(i); \n    arr[0] = 0; \n  }\n  alert(arr[4]);\n  alert(arr[11]); \n  alert(arr[18]);\n  alert(arr[arr.length-1]); \n  \n}\n\n\nfunction fizzbuzz (x) {\n    if ((x%3) === 0 & (x%5) === 0) {x = \"fizzbuzz\"} \n    else if ((x%3) === 0) {x = \"fizz\"} \n    else if ((x%5) === 0) {x = \"buzz\"} \n  else {x=x}; \n  return x; \n  } \n\nmyMain();\n\n  ",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa1e24677656f940f841525",
+                "user": "paigeall",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [] ; \n  var total = 31; \n  for (var i=0; i<(total); i++) {\n    arr[i] = fizzbuzz(i); \n  \n  }\n  arr[0] = 0; \n  alert(arr[4]);\n  alert(arr[11]); \n  alert(arr[18]);\n  alert(arr[arr.length-1]); \n  \n}\n\n\nfunction fizzbuzz (x) {\n    if ((x%3) === 0 & (x%5) === 0) {x = \"fizzbuzz\"} \n    else if ((x%3) === 0) {x = \"fizz\"} \n    else if ((x%5) === 0) {x = \"buzz\"} \n  else {x=x}; \n  return x; \n  } \n\nmyMain();\n\n  ",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa1e26277656f940f841526",
+                "user": "paigeall",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [] ; \n  var total = 31; \n  for (var i=0; i<(total); i++) {\n    arr[i] = fizzbuzz(i); \n  \n  }\n  arr[0] = 0; \n  alert(arr[0]);\n  alert(arr[4]);\n  alert(arr[11]); \n  alert(arr[18]);\n  alert(arr[arr.length-1]); \n  \n}\n\n\nfunction fizzbuzz (x) {\n    if ((x%3) === 0 & (x%5) === 0) {x = \"fizzbuzz\"} \n    else if ((x%3) === 0) {x = \"fizz\"} \n    else if ((x%5) === 0) {x = \"buzz\"} \n  else {x=x}; \n  return x; \n  } \n\nmyMain();\n\n  ",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 5
+                }
+            },
+            {
+                "submissionId": "5aa1e28977656f940f841527",
+                "user": "paigeall",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [] ; \n  var total = 31; \n  for (var i=0; i<(total); i++) {\n    arr[i] = fizzbuzz(i); \n  \n  }\n  arr[0] = 0; \n  alert(arr[4]);\n  alert(arr[11]); \n  alert(arr[18]);\n  alert(arr[arr.length-1]); \n  \n}\n\n\nfunction fizzbuzz (x) {\n    if ((x%3) === 0 & (x%5) === 0) {x = \"fizzbuzz\"} \n    else if ((x%3) === 0) {x = \"fizz\"} \n    else if ((x%5) === 0) {x = \"buzz\"} \n  else {x=x}; \n  return x; \n  } \n\nmyMain();\n\n  ",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa1e2b577656f940f841528",
+                "user": "paigeall",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [] ; \n  var total = 31; \n  for (var i=0; i<(total); i++) {\n    arr[i] = fizzbuzz(i); \n  \n  }\n  arr[0] = 0; \n  alert(arr[4]);\n  alert(arr[11]); \n  alert(arr[18]);\n  alert(arr[arr.length-1]); \n  \n}\n\n\nfunction fizzbuzz (x) {\n    if ((x%3) === 0 & (x%5) === 0) {x = \"fizzbuzz\"} \n    else if ((x%3) === 0) {x = \"fizz\"} \n    else if ((x%5) === 0) {x = \"buzz\"} \n  else {x=x}; \n  return x; \n  } \n\nmyMain();\n\n  ",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa3259077656f940f841533",
+                "user": "paigeall",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [] ; \n  var total = 31; \n  for (var i=0; i<(total); i++) {\n    arr[i] = fizzbuzz(i); \n  \n  }\n  arr[0] = 0; \n  alert(arr[4]);\n  alert(arr[11]); \n  alert(arr[18]);\n  alert(arr[arr.length-1]); \n  \n}\n\n\nfunction fizzbuzz (x) {\n    if ((x%3) === 0 & (x%5) === 0) {x = \"fizzbuzz\"} \n    else if ((x%3) === 0) {x = \"fizz\"} \n    else if ((x%5) === 0) {x = \"buzz\"} \n  else {x=x}; \n  return x; \n  } \n\nmyMain();\n\n  ",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa325a477656f940f841534",
+                "user": "paigeall",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [] ; \n  var total = 31; \n  for (var i=0; i<(total); i++) {\n    arr[i] = fizzbuzz(i); \n  \n  }\n  arr[0] = 0; \n  alert(arr[5]);\n  alert(arr[12]); \n  alert(arr[19]);\n  alert(arr[arr.length-1]); \n  \n}\n\n\nfunction fizzbuzz (x) {\n    if ((x%3) === 0 & (x%5) === 0) {x = \"fizzbuzz\"} \n    else if ((x%3) === 0) {x = \"fizz\"} \n    else if ((x%5) === 0) {x = \"buzz\"} \n  else {x=x}; \n  return x; \n  } \n\nmyMain();\n\n  ",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa3571677656f940f84154e",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var stop = 31\n  for (var i=0; i<stop; i++) {\n    if ((count % 3)===0 && (count % 5)===0) {arr[i] =\"fizzbuzz\";}\n    else if ((count % 3)===0) {arr[i]=\"fizz\";}\n    else if ((count % 5)===0) {arr[i]=\"buzz\";}\n    else {arr[i] = count}\n    count++;\n  \n  }\n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n   \n  \n}\n\n\nmyMain();\n\n\n//function myMain() {\n  //var uNum = 1;\n  //var sum = 0;\n  //while ( sum <20 ) { \n    //sum = uNum + sum;\n    //if ((sum % 3)===0 && (sum % 5)===0) {alert(\"fizzbuzz\");}\n    //else if ((sum % 3)===0) {alert(\"fizz\");}\n    //else if ((sum % 5)===0) {alert(\"buzz\");}\n    //else {alert(sum);}\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa3573677656f940f84154f",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var stop = 32\n  for (var i=0; i<stop; i++) {\n    if ((count % 3)===0 && (count % 5)===0) {arr[i] =\"fizzbuzz\";}\n    else if ((count % 3)===0) {arr[i]=\"fizz\";}\n    else if ((count % 5)===0) {arr[i]=\"buzz\";}\n    else {arr[i] = count}\n    count++;\n  \n  }\n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n   \n  \n}\n\n\nmyMain();\n\n\n//function myMain() {\n  //var uNum = 1;\n  //var sum = 0;\n  //while ( sum <20 ) { \n    //sum = uNum + sum;\n    //if ((sum % 3)===0 && (sum % 5)===0) {alert(\"fizzbuzz\");}\n    //else if ((sum % 3)===0) {alert(\"fizz\");}\n    //else if ((sum % 5)===0) {alert(\"buzz\");}\n    //else {alert(sum);}\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa3574d77656f940f841550",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var stop = 31\n  for (var i=0; i<stop; i++) {\n    if ((count % 3)===0 && (count % 5)===0) {arr[i] =\"fizzbuzz\";}\n    else if ((count % 3)===0) {arr[i]=\"fizz\";}\n    else if ((count % 5)===0) {arr[i]=\"buzz\";}\n    else {arr[i] = count}\n    count++;\n  \n  }\n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n   \n  \n}\n\n\nmyMain();\n\n\n//function myMain() {\n  //var uNum = 1;\n  //var sum = 0;\n  //while ( sum <20 ) { \n    //sum = uNum + sum;\n    //if ((sum % 3)===0 && (sum % 5)===0) {alert(\"fizzbuzz\");}\n    //else if ((sum % 3)===0) {alert(\"fizz\");}\n    //else if ((sum % 5)===0) {alert(\"buzz\");}\n    //else {alert(sum);}\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa3589277656f940f841552",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var stop = 31\n  for (var i=0; i<stop; i++) {\n    if ((count % 3)===0 && (count % 5)===0) {arr[i] =\"fizzbuzz\";}\n    else if ((count % 3)===0) {arr[i]=\"fizz\";}\n    else if ((count % 5)===0) {arr[i]=\"buzz\";}\n    else {arr[i] = count}\n    count++;\n  \n  }\n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[30]);\n   \n  \n}\n\n\nmyMain();\n\n\n//function myMain() {\n  //var uNum = 1;\n  //var sum = 0;\n  //while ( sum <20 ) { \n    //sum = uNum + sum;\n    //if ((sum % 3)===0 && (sum % 5)===0) {alert(\"fizzbuzz\");}\n    //else if ((sum % 3)===0) {alert(\"fizz\");}\n    //else if ((sum % 5)===0) {alert(\"buzz\");}\n    //else {alert(sum);}\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa358a777656f940f841553",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var stop = 31\n  for (var i=0; i<stop; i++) {\n    if ((count % 3)===0 && (count % 5)===0) {arr[i] =\"fizzbuzz\";}\n    else if ((count % 3)===0) {arr[i]=\"fizz\";}\n    else if ((count % 5)===0) {arr[i]=\"buzz\";}\n    else {arr[i] = count}\n    count++;\n  \n  }\n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length]);\n   \n  \n}\n\n\nmyMain();\n\n\n//function myMain() {\n  //var uNum = 1;\n  //var sum = 0;\n  //while ( sum <20 ) { \n    //sum = uNum + sum;\n    //if ((sum % 3)===0 && (sum % 5)===0) {alert(\"fizzbuzz\");}\n    //else if ((sum % 3)===0) {alert(\"fizz\");}\n    //else if ((sum % 5)===0) {alert(\"buzz\");}\n    //else {alert(sum);}\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa358c677656f940f841554",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var stop = 31\n  for (var i=0; i<stop; i++) {\n    count++;\n    if ((count % 3)===0 && (count % 5)===0) {arr[i] =\"fizzbuzz\";}\n    else if ((count % 3)===0) {arr[i]=\"fizz\";}\n    else if ((count % 5)===0) {arr[i]=\"buzz\";}\n    else {arr[i] = count}\n    \n  \n  }\n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length]);\n   \n  \n}\n\n\nmyMain();\n\n\n//function myMain() {\n  //var uNum = 1;\n  //var sum = 0;\n  //while ( sum <20 ) { \n    //sum = uNum + sum;\n    //if ((sum % 3)===0 && (sum % 5)===0) {alert(\"fizzbuzz\");}\n    //else if ((sum % 3)===0) {alert(\"fizz\");}\n    //else if ((sum % 5)===0) {alert(\"buzz\");}\n    //else {alert(sum);}\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa358cd77656f940f841555",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var stop = 31\n  for (var i=0; i<stop; i++) {\n    count++;\n    if ((count % 3)===0 && (count % 5)===0) {arr[i] =\"fizzbuzz\";}\n    else if ((count % 3)===0) {arr[i]=\"fizz\";}\n    else if ((count % 5)===0) {arr[i]=\"buzz\";}\n    else {arr[i] = count}\n    \n  \n  }\n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n   \n  \n}\n\n\nmyMain();\n\n\n//function myMain() {\n  //var uNum = 1;\n  //var sum = 0;\n  //while ( sum <20 ) { \n    //sum = uNum + sum;\n    //if ((sum % 3)===0 && (sum % 5)===0) {alert(\"fizzbuzz\");}\n    //else if ((sum % 3)===0) {alert(\"fizz\");}\n    //else if ((sum % 5)===0) {alert(\"buzz\");}\n    //else {alert(sum);}\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aa358ff77656f940f841556",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var stop = 30;\n  for (var i=0; i<stop; i++) {\n    count++;\n    if ((count % 3)===0 && (count % 5)===0) {arr[i] =\"fizzbuzz\";}\n    else if ((count % 3)===0) {arr[i]=\"fizz\";}\n    else if ((count % 5)===0) {arr[i]=\"buzz\";}\n    else {arr[i] = count}\n    \n  \n  }\n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n   \n  \n}\n\n\nmyMain();\n\n\n//function myMain() {\n  //var uNum = 1;\n  //var sum = 0;\n  //while ( sum <20 ) { \n    //sum = uNum + sum;\n    //if ((sum % 3)===0 && (sum % 5)===0) {alert(\"fizzbuzz\");}\n    //else if ((sum % 3)===0) {alert(\"fizz\");}\n    //else if ((sum % 5)===0) {alert(\"buzz\");}\n    //else {alert(sum);}\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab1597b77656f940f8416d3",
+                "user": "yxu27",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var total = 30;\n  arr[0]=0\n  for (var i = 1; i <= total; i++) {\n    count +=1\n    if (count%3==0 && count%5!=0) {count == \"fizz\";}\n    else if (count%5==0 && count%3!=0) {count == \"buzz\";}\n    else if (count%3==0 && count%5==0) {count == \"fizzbuzz\";}\n    else {count == count}\n    \n    arr[i] = count;\n  }\n  \n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n  \n}\n   \n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab15b2d77656f940f8416d5",
+                "user": "yxu27",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var total = 30;\n  arr[0]=0\n  for (var i = 1; i <= total; i++) {\n    count +=1\n    arr[i] = count;\n    if (arr[i]%3==0 && arr[i]%5!=0) {arr[i] == \"fizz\";}\n    else if (arr[i]%5==0 && arr[i]%3!=0) {arr[i] == \"buzz\";}\n    else if (arr[i]%3==0 && arr[i]%5==0) {arr[i] == \"fizzbuzz\";}\n    \n  }\n  \n  \n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n  \n}\n   \n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab15c5c77656f940f8416d8",
+                "user": "yxu27",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var total = 30;\n  arr[0]=0\n  for (var i = 1; i <= total; i++) {\n    count +=1\n    arr[i] = count;\n    if (arr[i]%3==0 && arr[i]%5!=0) {arr[i] = \"fizz\";}\n    else if (arr[i]%5==0 && arr[i]%3!=0) {arr[i] =\"buzz\";}\n    else if (arr[i]%3==0 && arr[i]%5==0) {arr[i] =\"fizzbuzz\";}\n    \n  }\n  \n  \n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n  \n}\n   \n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab15c7c77656f940f8416d9",
+                "user": "yxu27",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var total = 30;\n  arr[0]=0\n  for (var i = 1; i <= total; i++) {\n    count +=1\n    arr[i] = count;\n    if (arr[i]%3==0 && arr[i]%5!=0) {arr[i] = \"fizz\";}\n    else if (arr[i]%5==0 && arr[i]%3!=0) {arr[i] =\"buzz\";}\n    else if (arr[i]%3==0 && arr[i]%5==0) {arr[i] =\"fizzbuzz\";}\n    \n  }\n  \n  \n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n  \n}\n   \n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab15cd877656f940f8416da",
+                "user": "yxu27",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var total = 30;\n  arr[0]=0\n  for (var i = 0; i <= total; i++) {\n    count +=1\n    arr[i] = count;\n    if (arr[i]%3==0 && arr[i]%5!=0) {arr[i] = \"fizz\";}\n    else if (arr[i]%5==0 && arr[i]%3!=0) {arr[i] =\"buzz\";}\n    else if (arr[i]%3==0 && arr[i]%5==0) {arr[i] =\"fizzbuzz\";}\n    \n  }\n  \n  \n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n  \n}\n   \n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab1981177656f940f8416e8",
+                "user": "masonma",
+                "code": "\"use strict\";\nfunction myMain() {\n  var arr=[0,1,2,\"fizz\",4,\"buzz\",\"fizz\",7,8,\"fizz\",\"buzz\",11,\"fizz\",13,14,\"fizzbuzz\",16,17,\"fizz\",19,\"buzz\",\"fizz\",22,23,\"fizz\",\"buzz\",26,\"fizz\",28,29,\"fizzbuzz\"];\n  for (var i=0; i<arr.length; i++) {\n    alert(arr[4]);\n    alert(arr[11]);\n    alert(arr[18]);\n    alert(arr[30]);\n  }\n}\nmyMain();\n  \n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab1983477656f940f8416e9",
+                "user": "masonma",
+                "code": "\"use strict\";\nfunction myMain() {\n  var arr=[0,1,2,\"fizz\",4,\"buzz\",\"fizz\",7,8,\"fizz\",\"buzz\",11,\"fizz\",13,14,\"fizzbuzz\",16,17,\"fizz\",19,\"buzz\",\"fizz\",22,23,\"fizz\",\"buzz\",26,\"fizz\",28,29,\"fizzbuzz\"];\n  for (var i=0; i<arr.length; i++) {\n    alert(arr[3]);\n    alert(arr[10]);\n    alert(arr[17]);\n    alert(arr[31]);\n  }\n}\nmyMain();\n  \n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab19a2677656f940f8416ef",
+                "user": "masonma",
+                "code": "\"use strict\";\nfunction myMain() {\n  var arr=[];\n  for (var i=0; i<30; i++) {\n    arr[i]=i\n    if (i%3 === 0 && i%5 === 0) {arr[i]=\"fizzbuzz\";}\n    if (i%3 === 0 && i%5 !== 0) {arr[i]=\"fizz\";}\n    if (i%3 !== 0 && i%5 === 0) {arr[i]=\"buzz\";}\n      }\n      \n    alert(arr[3]);\n    alert(arr[10]);\n    alert(arr[17]);\n    alert(arr[30]);\n}\nmyMain();\n  \n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab19a3e77656f940f8416f0",
+                "user": "masonma",
+                "code": "\"use strict\";\nfunction myMain() {\n  var arr=[];\n  for (var i=0; i<30; i++) {\n    arr[i]=i\n    if (i%3 === 0 && i%5 === 0) {arr[i]=\"fizzbuzz\";}\n    if (i%3 === 0 && i%5 !== 0) {arr[i]=\"fizz\";}\n    if (i%3 !== 0 && i%5 === 0) {arr[i]=\"buzz\";}\n      }\n      \n    alert(arr[4]);\n    alert(arr[11]);\n    alert(arr[18]);\n    alert(arr[30]);\n}\nmyMain();\n  \n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab19a4e77656f940f8416f1",
+                "user": "masonma",
+                "code": "\"use strict\";\nfunction myMain() {\n  var arr=[];\n  for (var i=0; i<31; i++) {\n    arr[i]=i\n    if (i%3 === 0 && i%5 === 0) {arr[i]=\"fizzbuzz\";}\n    if (i%3 === 0 && i%5 !== 0) {arr[i]=\"fizz\";}\n    if (i%3 !== 0 && i%5 === 0) {arr[i]=\"buzz\";}\n      }\n      \n    alert(arr[4]);\n    alert(arr[11]);\n    alert(arr[18]);\n    alert(arr[31]);\n}\nmyMain();\n  \n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab3805477656f940f841772",
+                "user": "aaronlle",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  for (var i=0; i<=30; i++) {\n    arr[0] = 0;\n    if((i%3 == 0) && (x%5==0)) { arr[i] = (\"fizzbuzz\"); }\n    if(x%3 == 0) { arr[i] = (\"fizz\"); }\n    if(x%5 == 0) { arr[i] = (\"buzz\"); }\n      else { arr[i] = i; }\n  }\n  \n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[18]);\n}\n\nmyMain();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 3
+                }
+            },
+            {
+                "submissionId": "5ab3806777656f940f841773",
+                "user": "aaronlle",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  for (var i=0; i<=30; i++) {\n    arr[0] = 0;\n    if((i%3 == 0) && (i%5==0)) { arr[i] = (\"fizzbuzz\"); }\n    if(i%3 == 0) { arr[i] = (\"fizz\"); }\n    if(i%5 == 0) { arr[i] = (\"buzz\"); }\n      else { arr[i] = i; }\n  }\n  \n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[18]);\n}\n\nmyMain();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 3
+                }
+            },
+            {
+                "submissionId": "5ab3808977656f940f841774",
+                "user": "aaronlle",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  for (var i=0; i<=30; i++) {\n    arr[0] = 0;\n    if((i%3 == 0) && (i%5==0)) { arr[i] = (\"fizzbuzz\"); }\n    if(i%3 == 0) { arr[i] = (\"fizz\"); }\n    if(i%5 == 0) { arr[i] = (\"buzz\"); }\n      else { arr[i] = i; }\n  }\n  \n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n}\n\nmyMain();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab380f277656f940f841775",
+                "user": "aaronlle",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  for (var i=0; i<=30; i++) {\n    arr[0] = 0;\n    if(i%3 == 0) { arr[i] = (\"fizz\"); }\n    if(i%5 == 0) { arr[i] = (\"buzz\"); }\n    if((i%3 == 0) && (i%5==0)) { arr[i] = (\"fizzbuzz\"); }\n      else { arr[i] = i; }\n  }\n  \n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n}\n\nmyMain();\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab3834077656f940f841776",
+                "user": "aaronlle",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  arr[0] = 0;\n  for (var i=0; i<=30; i++) {\n    if((i%3 == 0) && (i%5==0)) { arr[i] = (\"fizzbuzz\"); return; }\n    if(i%3 == 0) { arr[i] = (\"fizz\"); return; }\n    if(i%5 == 0) { arr[i] = (\"buzz\"); return; }\n    else { arr[i] = i; }\n  }\n  \n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n}\n\nmyMain();\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab3836777656f940f841777",
+                "user": "aaronlle",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  arr[0] = 0;\n  for (var i=0; i<=30; i++) {\n    if((i%3 == 0) && (i%5==0)) { arr[i] = (\"fizzbuzz\"); }\n    if(i%3 == 0) { arr[i] = (\"fizz\"); }\n    if(i%5 == 0) { arr[i] = (\"buzz\"); }\n    else { arr[i] = i; }\n  }\n  \n  alert(arr[4]);\n  alert(arr[10]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n}\n\nmyMain();\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab3837577656f940f841778",
+                "user": "aaronlle",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  arr[0] = 0;\n  for (var i=0; i<=30; i++) {\n    if((i%3 == 0) && (i%5==0)) { arr[i] = (\"fizzbuzz\"); }\n    if(i%3 == 0) { arr[i] = (\"fizz\"); }\n    if(i%5 == 0) { arr[i] = (\"buzz\"); }\n    else { arr[i] = i; }\n  }\n  \n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[17]);\n  alert(arr[arr.length-1]);\n}\n\nmyMain();\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab3838177656f940f841779",
+                "user": "aaronlle",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  arr[0] = 0;\n  for (var i=0; i<=30; i++) {\n    if((i%3 == 0) && (i%5==0)) { arr[i] = (\"fizzbuzz\"); }\n    if(i%3 == 0) { arr[i] = (\"fizz\"); }\n    if(i%5 == 0) { arr[i] = (\"buzz\"); }\n    else { arr[i] = i; }\n  }\n  \n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n}\n\nmyMain();\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab470f077656f940f8417b8",
+                "user": "rdango7",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var stop = 30;\n  for (var i=0; i<stop; i++) {\n    if ((count % 3)===0 && (count % 5)===0) {arr[i] =\"fizzbuzz\";}\n    else if ((count % 3)===0) {arr[i]=\"fizz\";}\n    else if ((count % 5)===0) {arr[i]=\"buzz\";}\n    else {arr[i] = count}\n    count++;\n    \n  \n  }\n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n   \n  \n}\n\n\nmyMain();\n\n\n//function myMain() {\n  //var uNum = 1;\n  //var sum = 0;\n  //while ( sum <20 ) { \n    //sum = uNum + sum;\n    //if ((sum % 3)===0 && (sum % 5)===0) {alert(\"fizzbuzz\");}\n    //else if ((sum % 3)===0) {alert(\"fizz\");}\n    //else if ((sum % 5)===0) {alert(\"buzz\");}\n    //else {alert(sum);}\n\n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ab511da77656f940f8417c5",
+                "user": "noahnoah",
+                "code": "\"use strict\";\n\nfunction myMain () {\n  var arr = [];\n  var int = 30;\n  for (var i = 0; i <= int; i++) {\n    if ((i % 3) === 0 && (i % 5) !== 0) {arr[i] = (\"fizz\")}\n    if ((i % 5) === 0 && (i % 3) !== 0) {arr[i] = (\"buzz\")}\n    if ((i % 3) === 0 && (i % 5) === 0) {arr[i] = (\"fizzbuzz\");}\n    else {arr[i] = i;}\n} \n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[17]);\n  alert(arr[30]);\n  \n}\n\nmyMain () ;",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ae107a53a109ccc0e7418a8",
+                "user": "kristen5",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var primes = [2,3,5,7,11,13,17,19,23,29]; \n  var sum = 0; \n  for (var i=0; i<primes.length; i++) { \n    sum = sum + primes[i]; \n  }\n  alert(sum/primes.length); \n}\n\nmyMain(); \n",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5aee65963a109ccc0e741aa1",
+                "user": "parks17",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var i=0;\n  var array = [];\n  var value;\n  for (i=0; i<31; i++) {\n    value = i;\n    if (value%3===0 && value%5===0) {array[i] = \"fizzbuzz\"}\n    else if (value%3===0) {array[i] = \"fizz\"}\n    else if (value%5===0) {array[i] = \"buzz\"}\n    else {array[i] = value}\n    i++;\n  }\n  alert(array[3]);\n  alert(array[10]);\n  alert(array[17]);\n  alert(array[30]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 0,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aee664b3a109ccc0e741aa5",
+                "user": "parks17",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var i=0;\n  var array = [];\n  var value;\n  array[0] = 0;\n  for (i=1; i<30; i++) {\n    value = i;\n    if (value%3===0 && value%5===0) {array[i] = \"fizzbuzz\"}\n    else if (value%3===0) {array[i] = \"fizz\"}\n    else if (value%5===0) {array[i] = \"buzz\"}\n    else {array[i] = value}\n    i++;\n  }\n  alert(array[3]);\n  alert(array[10]);\n  alert(array[17]);\n  alert(array[30]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 0,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5ae89d973a109ccc0e74196b",
+                "user": "yxu27",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var arr = [ ];\n  var count = 0;\n  var total = 30;\n  \n  for (var i = 1; i <= total; i++) {\n    count +=1\n    arr[i] = count;\n    if (arr[i]%3==0 && arr[i]%5!=0) {arr[i] = \"fizz\";}\n    else if (arr[i]%5==0 && arr[i]%3!=0) {arr[i] =\"buzz\";}\n    else if (arr[i]%3==0 && arr[i]%5==0) {arr[i] =\"fizzbuzz\";}\n    \n  }\n  arr[0]=0\n  \n  \n  alert(arr[4]);\n  alert(arr[11]);\n  alert(arr[18]);\n  alert(arr[arr.length-1]);\n  \n}\n   \n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aef53333a109ccc0e741b2c",
+                "user": "watsonsl",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var primes = [2,3,5,7,11,13,17,19,23,29];\n  var sum = 0;\n  for (var i=0; i<primes.length; i++) {\n  sum = sum + primes[i];\n  }\n  var avg = sum/primes.length;\nalert( avg );\n  }\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 1,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 1
+                }
+            },
+            {
+                "submissionId": "5aee65b53a109ccc0e741aa2",
+                "user": "parks17",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var i=0;\n  var array = [];\n  var value;\n  for (i=1; i<31; i++) {\n    value = i;\n    if (value%3===0 && value%5===0) {array[i] = \"fizzbuzz\"}\n    else if (value%3===0) {array[i] = \"fizz\"}\n    else if (value%5===0) {array[i] = \"buzz\"}\n    else {array[i] = value}\n    i++;\n  }\n  alert(array[3]);\n  alert(array[10]);\n  alert(array[17]);\n  alert(array[30]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 0,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aee65c73a109ccc0e741aa3",
+                "user": "parks17",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var i=0;\n  var array = [];\n  var value;\n  array[0] = 0;\n  for (i=1; i<31; i++) {\n    value = i;\n    if (value%3===0 && value%5===0) {array[i] = \"fizzbuzz\"}\n    else if (value%3===0) {array[i] = \"fizz\"}\n    else if (value%5===0) {array[i] = \"buzz\"}\n    else {array[i] = value}\n    i++;\n  }\n  alert(array[3]);\n  alert(array[10]);\n  alert(array[17]);\n  alert(array[30]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 0,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aee65de3a109ccc0e741aa4",
+                "user": "parks17",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var i=0;\n  var array = [];\n  var value;\n  array[0] = 0;\n  for (i=1; i<31; i++) {\n    value = i;\n    if (value%3===0 && value%5===0) {array[i] = \"fizzbuzz\"}\n    else if (value%3===0) {array[i] = \"fizz\"}\n    else if (value%5===0) {array[i] = \"buzz\"}\n    else {array[i] = value}\n    i++;\n  }\n  alert(array[4]);\n  alert(array[11]);\n  alert(array[18]);\n  alert(array[31]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 0,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aee69323a109ccc0e741aad",
+                "user": "parks17",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var i=0;\n  var array = [];\n  var value;\n  array[0] = 0;\n  for (i=1; i<30; i++) {\n    value = i;\n    if (value%3===0 && value%5===0) {array[i] = \"fizzbuzz\"}\n    else if (value%3===0) {array[i] = \"fizz\"}\n    else if (value%5===0) {array[i] = \"buzz\"}\n    else {array[i] = value}\n  }\n  alert(array[3]);\n  alert(array[10]);\n  alert(array[17]);\n  alert(array[30]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 0,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aee696f3a109ccc0e741aae",
+                "user": "parks17",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var i=0;\n  var array = [];\n  var value;\n  array[0] = 0;\n  for (i=1; i<30; i++) {\n    value = i;\n    if (value%3===0 && value%5===0) {array[i] = \"fizzbuzz\"}\n    else if (value%3===0) {array[i] = \"fizz\"}\n    else if (value%5===0) {array[i] = \"buzz\"}\n    else {array[i] = value}\n  }\n  alert(array[4]);\n  alert(array[11]);\n  alert(array[18]);\n  alert(array[30]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 0,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            },
+            {
+                "submissionId": "5aee69b13a109ccc0e741aaf",
+                "user": "parks17",
+                "code": "\"use strict\";\n\nfunction myMain() {\n  var i;\n  var array = [];\n  var value;\n  array[0] = 0;\n  for (i=1; i<30; i++) {\n    value = i;\n    if (value%3===0 && value%5===0) {array[i] = \"fizzbuzz\"}\n    else if (value%3===0) {array[i] = \"fizz\"}\n    else if (value%5===0) {array[i] = \"buzz\"}\n    else {array[i] = value}\n  }\n  alert(array[3]);\n  alert(array[10]);\n  alert(array[17]);\n  alert(array[30]);\n}\n\nmyMain();",
+                "correctness": {
+                    "correct": 0,
+                    "style": 1
+                },
+                "facts": {
+                    "nFLInit": 1,
+                    "nFLVarInit": 0,
+                    "nFLIncS": 1,
+                    "nAccInit": 0,
+                    "nAS": 4
+                }
+            }
+        ],
+        "correctCount": 16,
+        "incorrectCount": 64,
+        "totalCount": 80
+    }
+}

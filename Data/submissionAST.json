@@ -1,0 +1,657 @@
+{
+    "type": "Program",
+    "start": 0,
+    "end": 403,
+    "body": [
+        {
+            "type": "ExpressionStatement",
+            "start": 0,
+            "end": 13,
+            "expression": {
+                "type": "Literal",
+                "start": 0,
+                "end": 12,
+                "value": "use strict",
+                "raw": "\"use strict\""
+            }
+        },
+        {
+            "type": "FunctionDeclaration",
+            "start": 15,
+            "end": 197,
+            "id": {
+                "type": "Identifier",
+                "start": 24,
+                "end": 30,
+                "name": "myMain"
+            },
+            "params": [],
+            "rest": null,
+            "body": {
+                "type": "BlockStatement",
+                "start": 33,
+                "end": 197,
+                "body": [
+                    {
+                        "type": "VariableDeclaration",
+                        "start": 37,
+                        "end": 45,
+                        "declarations": [
+                            {
+                                "type": "VariableDeclarator",
+                                "start": 41,
+                                "end": 44,
+                                "id": {
+                                    "type": "Identifier",
+                                    "start": 41,
+                                    "end": 42,
+                                    "name": "n"
+                                },
+                                "init": {
+                                    "type": "Literal",
+                                    "start": 43,
+                                    "end": 44,
+                                    "value": 1,
+                                    "raw": "1"
+                                }
+                            }
+                        ],
+                        "kind": "var"
+                    },
+                    {
+                        "type": "VariableDeclaration",
+                        "start": 48,
+                        "end": 60,
+                        "declarations": [
+                            {
+                                "type": "VariableDeclarator",
+                                "start": 52,
+                                "end": 59,
+                                "id": {
+                                    "type": "Identifier",
+                                    "start": 52,
+                                    "end": 54,
+                                    "name": "fb"
+                                },
+                                "init": {
+                                    "type": "ArrayExpression",
+                                    "start": 56,
+                                    "end": 59,
+                                    "elements": [
+                                        {
+                                            "type": "Literal",
+                                            "start": 57,
+                                            "end": 58,
+                                            "value": 0,
+                                            "raw": "0"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "kind": "var"
+                    },
+                    {
+                        "type": "ForStatement",
+                        "start": 63,
+                        "end": 119,
+                        "init": {
+                            "type": "VariableDeclaration",
+                            "start": 68,
+                            "end": 75,
+                            "declarations": [
+                                {
+                                    "type": "VariableDeclarator",
+                                    "start": 72,
+                                    "end": 75,
+                                    "id": {
+                                        "type": "Identifier",
+                                        "start": 72,
+                                        "end": 73,
+                                        "name": "n"
+                                    },
+                                    "init": {
+                                        "type": "Literal",
+                                        "start": 74,
+                                        "end": 75,
+                                        "value": 1,
+                                        "raw": "1"
+                                    }
+                                }
+                            ],
+                            "kind": "var"
+                        },
+                        "test": {
+                            "type": "BinaryExpression",
+                            "start": 77,
+                            "end": 82,
+                            "left": {
+                                "type": "Identifier",
+                                "start": 77,
+                                "end": 78,
+                                "name": "n"
+                            },
+                            "operator": "<=",
+                            "right": {
+                                "type": "Literal",
+                                "start": 80,
+                                "end": 82,
+                                "value": 30,
+                                "raw": "30"
+                            }
+                        },
+                        "update": {
+                            "type": "UpdateExpression",
+                            "start": 84,
+                            "end": 87,
+                            "operator": "++",
+                            "prefix": false,
+                            "argument": {
+                                "type": "Identifier",
+                                "start": 84,
+                                "end": 85,
+                                "name": "n"
+                            }
+                        },
+                        "body": {
+                            "type": "BlockStatement",
+                            "start": 89,
+                            "end": 119,
+                            "body": [
+                                {
+                                    "type": "ExpressionStatement",
+                                    "start": 95,
+                                    "end": 115,
+                                    "expression": {
+                                        "type": "AssignmentExpression",
+                                        "start": 95,
+                                        "end": 114,
+                                        "operator": "=",
+                                        "left": {
+                                            "type": "MemberExpression",
+                                            "start": 95,
+                                            "end": 100,
+                                            "object": {
+                                                "type": "Identifier",
+                                                "start": 95,
+                                                "end": 97,
+                                                "name": "fb"
+                                            },
+                                            "property": {
+                                                "type": "Identifier",
+                                                "start": 98,
+                                                "end": 99,
+                                                "name": "n"
+                                            },
+                                            "computed": true
+                                        },
+                                        "right": {
+                                            "type": "CallExpression",
+                                            "start": 103,
+                                            "end": 114,
+                                            "callee": {
+                                                "type": "Identifier",
+                                                "start": 103,
+                                                "end": 111,
+                                                "name": "fizzbuzz"
+                                            },
+                                            "arguments": [
+                                                {
+                                                    "type": "Identifier",
+                                                    "start": 112,
+                                                    "end": 113,
+                                                    "name": "n"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "ExpressionStatement",
+                        "start": 122,
+                        "end": 135,
+                        "expression": {
+                            "type": "CallExpression",
+                            "start": 122,
+                            "end": 134,
+                            "callee": {
+                                "type": "Identifier",
+                                "start": 122,
+                                "end": 127,
+                                "name": "alert"
+                            },
+                            "arguments": [
+                                {
+                                    "type": "MemberExpression",
+                                    "start": 128,
+                                    "end": 133,
+                                    "object": {
+                                        "type": "Identifier",
+                                        "start": 128,
+                                        "end": 130,
+                                        "name": "fb"
+                                    },
+                                    "property": {
+                                        "type": "Literal",
+                                        "start": 131,
+                                        "end": 132,
+                                        "value": 3,
+                                        "raw": "3"
+                                    },
+                                    "computed": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "ExpressionStatement",
+                        "start": 138,
+                        "end": 152,
+                        "expression": {
+                            "type": "CallExpression",
+                            "start": 138,
+                            "end": 151,
+                            "callee": {
+                                "type": "Identifier",
+                                "start": 138,
+                                "end": 143,
+                                "name": "alert"
+                            },
+                            "arguments": [
+                                {
+                                    "type": "MemberExpression",
+                                    "start": 144,
+                                    "end": 150,
+                                    "object": {
+                                        "type": "Identifier",
+                                        "start": 144,
+                                        "end": 146,
+                                        "name": "fb"
+                                    },
+                                    "property": {
+                                        "type": "Literal",
+                                        "start": 147,
+                                        "end": 149,
+                                        "value": 10,
+                                        "raw": "10"
+                                    },
+                                    "computed": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "ExpressionStatement",
+                        "start": 155,
+                        "end": 169,
+                        "expression": {
+                            "type": "CallExpression",
+                            "start": 155,
+                            "end": 168,
+                            "callee": {
+                                "type": "Identifier",
+                                "start": 155,
+                                "end": 160,
+                                "name": "alert"
+                            },
+                            "arguments": [
+                                {
+                                    "type": "MemberExpression",
+                                    "start": 161,
+                                    "end": 167,
+                                    "object": {
+                                        "type": "Identifier",
+                                        "start": 161,
+                                        "end": 163,
+                                        "name": "fb"
+                                    },
+                                    "property": {
+                                        "type": "Literal",
+                                        "start": 164,
+                                        "end": 166,
+                                        "value": 17,
+                                        "raw": "17"
+                                    },
+                                    "computed": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "ExpressionStatement",
+                        "start": 172,
+                        "end": 195,
+                        "expression": {
+                            "type": "CallExpression",
+                            "start": 172,
+                            "end": 194,
+                            "callee": {
+                                "type": "Identifier",
+                                "start": 172,
+                                "end": 177,
+                                "name": "alert"
+                            },
+                            "arguments": [
+                                {
+                                    "type": "MemberExpression",
+                                    "start": 178,
+                                    "end": 193,
+                                    "object": {
+                                        "type": "Identifier",
+                                        "start": 178,
+                                        "end": 180,
+                                        "name": "fb"
+                                    },
+                                    "property": {
+                                        "type": "BinaryExpression",
+                                        "start": 181,
+                                        "end": 192,
+                                        "left": {
+                                            "type": "MemberExpression",
+                                            "start": 181,
+                                            "end": 190,
+                                            "object": {
+                                                "type": "Identifier",
+                                                "start": 181,
+                                                "end": 183,
+                                                "name": "fb"
+                                            },
+                                            "property": {
+                                                "type": "Identifier",
+                                                "start": 184,
+                                                "end": 190,
+                                                "name": "length"
+                                            },
+                                            "computed": false
+                                        },
+                                        "operator": "-",
+                                        "right": {
+                                            "type": "Literal",
+                                            "start": 191,
+                                            "end": 192,
+                                            "value": 1,
+                                            "raw": "1"
+                                        }
+                                    },
+                                    "computed": true
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "FunctionDeclaration",
+            "start": 199,
+            "end": 392,
+            "id": {
+                "type": "Identifier",
+                "start": 208,
+                "end": 216,
+                "name": "fizzbuzz"
+            },
+            "params": [
+                {
+                    "type": "Identifier",
+                    "start": 219,
+                    "end": 220,
+                    "name": "n"
+                }
+            ],
+            "rest": null,
+            "body": {
+                "type": "BlockStatement",
+                "start": 223,
+                "end": 392,
+                "body": [
+                    {
+                        "type": "IfStatement",
+                        "start": 227,
+                        "end": 390,
+                        "test": {
+                            "type": "LogicalExpression",
+                            "start": 232,
+                            "end": 255,
+                            "left": {
+                                "type": "BinaryExpression",
+                                "start": 232,
+                                "end": 241,
+                                "left": {
+                                    "type": "BinaryExpression",
+                                    "start": 233,
+                                    "end": 236,
+                                    "left": {
+                                        "type": "Identifier",
+                                        "start": 233,
+                                        "end": 234,
+                                        "name": "n"
+                                    },
+                                    "operator": "%",
+                                    "right": {
+                                        "type": "Literal",
+                                        "start": 235,
+                                        "end": 236,
+                                        "value": 3,
+                                        "raw": "3"
+                                    }
+                                },
+                                "operator": "===",
+                                "right": {
+                                    "type": "Literal",
+                                    "start": 239,
+                                    "end": 240,
+                                    "value": 0,
+                                    "raw": "0"
+                                }
+                            },
+                            "operator": "&&",
+                            "right": {
+                                "type": "BinaryExpression",
+                                "start": 245,
+                                "end": 255,
+                                "left": {
+                                    "type": "BinaryExpression",
+                                    "start": 246,
+                                    "end": 249,
+                                    "left": {
+                                        "type": "Identifier",
+                                        "start": 246,
+                                        "end": 247,
+                                        "name": "n"
+                                    },
+                                    "operator": "%",
+                                    "right": {
+                                        "type": "Literal",
+                                        "start": 248,
+                                        "end": 249,
+                                        "value": 5,
+                                        "raw": "5"
+                                    }
+                                },
+                                "operator": "===",
+                                "right": {
+                                    "type": "Literal",
+                                    "start": 252,
+                                    "end": 253,
+                                    "value": 0,
+                                    "raw": "0"
+                                }
+                            }
+                        },
+                        "consequent": {
+                            "type": "BlockStatement",
+                            "start": 258,
+                            "end": 280,
+                            "body": [
+                                {
+                                    "type": "ReturnStatement",
+                                    "start": 260,
+                                    "end": 278,
+                                    "argument": {
+                                        "type": "Literal",
+                                        "start": 267,
+                                        "end": 277,
+                                        "value": "fizzbuzz",
+                                        "raw": "\"fizzbuzz\""
+                                    }
+                                }
+                            ]
+                        },
+                        "alternate": {
+                            "type": "IfStatement",
+                            "start": 288,
+                            "end": 390,
+                            "test": {
+                                "type": "BinaryExpression",
+                                "start": 293,
+                                "end": 300,
+                                "left": {
+                                    "type": "BinaryExpression",
+                                    "start": 293,
+                                    "end": 296,
+                                    "left": {
+                                        "type": "Identifier",
+                                        "start": 293,
+                                        "end": 294,
+                                        "name": "n"
+                                    },
+                                    "operator": "%",
+                                    "right": {
+                                        "type": "Literal",
+                                        "start": 295,
+                                        "end": 296,
+                                        "value": 3,
+                                        "raw": "3"
+                                    }
+                                },
+                                "operator": "===",
+                                "right": {
+                                    "type": "Literal",
+                                    "start": 299,
+                                    "end": 300,
+                                    "value": 0,
+                                    "raw": "0"
+                                }
+                            },
+                            "consequent": {
+                                "type": "BlockStatement",
+                                "start": 303,
+                                "end": 321,
+                                "body": [
+                                    {
+                                        "type": "ReturnStatement",
+                                        "start": 305,
+                                        "end": 319,
+                                        "argument": {
+                                            "type": "Literal",
+                                            "start": 312,
+                                            "end": 318,
+                                            "value": "fizz",
+                                            "raw": "\"fizz\""
+                                        }
+                                    }
+                                ]
+                            },
+                            "alternate": {
+                                "type": "IfStatement",
+                                "start": 329,
+                                "end": 390,
+                                "test": {
+                                    "type": "BinaryExpression",
+                                    "start": 334,
+                                    "end": 341,
+                                    "left": {
+                                        "type": "BinaryExpression",
+                                        "start": 334,
+                                        "end": 337,
+                                        "left": {
+                                            "type": "Identifier",
+                                            "start": 334,
+                                            "end": 335,
+                                            "name": "n"
+                                        },
+                                        "operator": "%",
+                                        "right": {
+                                            "type": "Literal",
+                                            "start": 336,
+                                            "end": 337,
+                                            "value": 5,
+                                            "raw": "5"
+                                        }
+                                    },
+                                    "operator": "===",
+                                    "right": {
+                                        "type": "Literal",
+                                        "start": 340,
+                                        "end": 341,
+                                        "value": 0,
+                                        "raw": "0"
+                                    }
+                                },
+                                "consequent": {
+                                    "type": "BlockStatement",
+                                    "start": 344,
+                                    "end": 362,
+                                    "body": [
+                                        {
+                                            "type": "ReturnStatement",
+                                            "start": 346,
+                                            "end": 360,
+                                            "argument": {
+                                                "type": "Literal",
+                                                "start": 353,
+                                                "end": 359,
+                                                "value": "buzz",
+                                                "raw": "\"buzz\""
+                                            }
+                                        }
+                                    ]
+                                },
+                                "alternate": {
+                                    "type": "BlockStatement",
+                                    "start": 370,
+                                    "end": 390,
+                                    "body": [
+                                        {
+                                            "type": "ReturnStatement",
+                                            "start": 377,
+                                            "end": 386,
+                                            "argument": {
+                                                "type": "Identifier",
+                                                "start": 384,
+                                                "end": 385,
+                                                "name": "n"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "ExpressionStatement",
+            "start": 394,
+            "end": 403,
+            "expression": {
+                "type": "CallExpression",
+                "start": 394,
+                "end": 402,
+                "callee": {
+                    "type": "Identifier",
+                    "start": 394,
+                    "end": 400,
+                    "name": "myMain"
+                },
+                "arguments": []
+            }
+        }
+    ],
+    "source": "\"use strict\";\n\nfunction myMain() {\n  var n=1;\n  var fb =[0];\n  for (var n=1; n<=30; n++) {\n    fb[n] = fizzbuzz(n);\n  }\n  alert(fb[3]);\n  alert(fb[10]);\n  alert(fb[17]);\n  alert(fb[fb.length-1]);\n}\n\nfunction fizzbuzz ( n ) {\n  if ( (n%3===0) && (n%5===0 ) ) { return \"fizzbuzz\"; }\n  else if ( n%3===0 ) { return \"fizz\"; }\n  else if ( n%5===0 ) { return \"buzz\"; }\n  else { \n    return n;\n  }\n}\n\nmyMain();"
+}
