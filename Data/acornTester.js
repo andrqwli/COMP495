@@ -2,7 +2,7 @@ const acorn = require("../MACHLEARN/acorn");
 const submissionMap = require("./oneInputSubmissions.json")
 const problemID = "544a3ed88afe161613542b90";
 
-const submission = "\"use strict\";\n\nfunction myMain() {\n  var n=1;\n  var fb =[0];\n  for (var n=1; n<=30; n++) {\n    fb[n] = fizzbuzz(n);\n  }\n  alert(fb[3]);\n  alert(fb[10]);\n  alert(fb[17]);\n  alert(fb[fb.length-1]);\n}\n\nfunction fizzbuzz ( n ) {\n  if ( (n%3===0) && (n%5===0 ) ) { return \"fizzbuzz\"; }\n  else if ( n%3===0 ) { return \"fizz\"; }\n  else if ( n%5===0 ) { return \"buzz\"; }\n  else { \n    return n;\n  }\n}\n\nmyMain();";
+const submission = "function myMain() {\n  var x = 1;\n  var arr = [0,];\n  for (x; x<31; x++){\n    if (((x%3) === 0) && ((x%5) === 0)) {\n      arr[x] = \"fizzbuzz\";\n      continue;\n    }\n    if ((x%3) === 0) {\n      arr[x] = \"fizz\";\n      continue;\n    }\n    if ((x%5) === 0) {\n      arr[x] = \"buzz\";\n      continue;\n    }\n    else arr[x] = x;\n  }\n  alert(arr[3]);\n  alert(arr[10]);\n  alert(arr[17]);\n  alert(arr[30]);\n}\nmyMain();";
 
 function parse(code) {
     var AST = acorn.parse(code);
@@ -14,5 +14,5 @@ function parse(code) {
     })
 }
 console.log(submission);
-console.log(submissionMap[problemID].text);
+//console.log(submissionMap[problemID].text);
 parse(submission);

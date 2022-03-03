@@ -40,6 +40,14 @@ var pcan = (function () {
             nFLIncS: numForLoopIncrementStatements(ast),
             nAccInit: numAccumulatorInitializations(ast),
             nAS: numAlertStatements(ast),
+
+            //***************************************
+            // FIZZBUZZ array specific facts 
+            // problem ID: 544a3ed88afe161613542b90
+            //***************************************
+
+            conFLVarIdent: consistentLoopVariableIdentifier(ast).isConsistent,
+            cFLBounds: correctForLoopBounds(ast),
         }
 
         return dObj;
@@ -131,7 +139,69 @@ var pcan = (function () {
         return count;
     }
 
+    /**************************************************/
+    /* FIZZBUZZ array specific facts                  */
+    /* problem ID: 544a3ed88afe161613542b90           */
+    /**************************************************/
 
+    function consistentLoopVariableIdentifier(ast) {
+        var identifier = "";
+
+        walk.full(ast, node => {
+            if (node.type == "ForStatement") {
+                // check for variable declaration and store identifier value
+                if (node.init.type == "VariableDeclaration") {
+                    if (node.init.declarations[0].type == "VariableDeclarator") {
+                        if (node.init.declarations[0].id.type == "Identifier") {
+                            identifier = node.init.declarations[0].id.name;
+                        }
+                    }
+                } else if (node.init.type == "Identifier") {
+                    identifier = node.init.name;
+                }
+
+                // check for test to include identifier
+                if (node.test.type == "BinaryExpression" && identifier != "") {
+                    if (node.test.left.type != "Identifer" || node.test.left.name != indentifier) {
+                        return false;
+                    }
+                } else { return false; }
+
+                // check for update to include identifier
+                if (node.update.type == "UpdateExpression" && identifier != "") {
+                    if (node.update.argument.type != "Identifier" || node.update.argument.name != identifier) {
+                        return false;
+                    }
+                } else { return false; }
+            }
+        })
+
+        return {
+            isConsistent: identifier != "",
+            value: identifier,
+        };
+    }
+
+    function correctForLoopBounds(ast) {
+        if (!consistentLoopVariableIdentifier(ast).isConsistent) { return false; }
+        
+        var key = {
+            "<": 31,
+            "<=": 30
+        }
+
+        walk.full(ast, node => {
+            if (node.type == "ForStatement") {
+                if (node.test.type == "BinaryExpression") {
+                    if (key[node.test.operator] != node.test.right.value) {
+                        return false;
+                    }
+                }
+            }
+        })
+
+        return true;
+    }
 
     return {
         collectStructureStyleFacts: collectStructureStyleFacts,
