@@ -5,6 +5,8 @@ const submissionsByProblemData = require("./submissionsByProblem.json");
 const oneInputSubmissionData = require("./oneInputSubmissions.json");
 const pcan = require('./pcan');
 const acorn = require('../MACHLEARN/acorn');
+const fizzBuzzId = "544a3ed88afe161613542b90";
+const separator = "************************************************************************\n";
 
 
 function processProblems() {
@@ -188,4 +190,20 @@ function addFacts() {
 
 }
 
-addFacts();
+function printSourceCode(id, isCorrect) {
+    var problemObj = oneInputSubmissionData[id];
+    console.log(problemObj.text);
+
+    var submissionArray = isCorrect ? problemObj.correct : problemObj.incorrect;
+
+    submissionArray.forEach(submission => {
+        console.log(submission.submissionId, submission.user);
+        console.log(submission.code);
+        console.log (separator);
+    });
+
+}
+
+//addFacts();
+
+printSourceCode(fizzBuzzId, false);

@@ -41,13 +41,15 @@ var pcan = (function () {
             nAccInit: numAccumulatorInitializations(ast),
             nAS: numAlertStatements(ast),
 
-            //***************************************
-            // FIZZBUZZ array specific facts 
-            // problem ID: 544a3ed88afe161613542b90
-            //***************************************
+            /****************************************/
+            /* FIZZBUZZ array specific facts        */
+            /* problem ID: 544a3ed88afe161613542b90 */
+            /****************************************/
 
             conFLVarIdent: consistentLoopVariableIdentifier(ast).isConsistent,
             cFLBounds: correctForLoopBounds(ast),
+            nFLVarAsIB: numForLoopVarAssignmentInBlock(ast),
+            
         }
 
         return dObj;
@@ -158,6 +160,10 @@ var pcan = (function () {
                     }
                 } else if (node.init.type == "Identifier") {
                     identifier = node.init.name;
+                } else if (node.init.type == "AssignmentExpression") {
+                    if (node.init.left.type == "Identifier") {
+                        identifier = node.init.left.name;
+                    }
                 }
 
                 // check for test to include identifier
@@ -206,6 +212,42 @@ var pcan = (function () {
     return {
         collectStructureStyleFacts: collectStructureStyleFacts,
         test: "test",
+    }
+
+    function numForLoopVarAssignmentInBlock(ast) {
+        var count = 0;
+        var loopIdentifier;
+        walk.full(ast, node => {
+            if (node.type == "ForStatement") {
+                // check for variable declaration and store identifier value
+                if (node.init.type == "VariableDeclaration") {
+                    if (node.init.declarations[0].type == "VariableDeclarator") {
+                        if (node.init.declarations[0].id.type == "Identifier") {
+                            loopIdentifier = node.init.declarations[0].id.name;
+                        }
+                    }
+                } else if (node.init.type == "Identifier") {
+                    loopIdentifier = node.init.name;
+                } else if (node.init.type == "AssignmentExpression") {
+                    if (node.init.left.type == "Identifier") {
+                        loopIdentifier = node.init.left.name;
+                    }
+                }
+
+                //check for variable assignment inside block
+                var newNode = node.body;
+                walk.full(newNode, innerNode => {
+                    if (innerNode.type == "AssignmentExpression") {
+                        if (innerNode.left.type == "Identifier" && innerNode.left.name == "loopIdentifier") {
+                            count++;
+                        }
+                    }
+                })
+
+            }
+        })
+
+        return count;
     }
 
 })  // end anonymous function declaration 

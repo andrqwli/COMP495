@@ -1,0 +1,1738 @@
+Arrays: Organizing data 
+Write a program to do the FizzBuzz problem (a former brick).  It is in the while loop section, but this time use a for loop to compute it.
+Also this time, instead of printing out the numbers and "fizz" etc., put the values into an array.  Make an array of 31 items (slots 0 to 30).
+Let's also just put 0 into slot 0 so we dont have to worry about if 0 is a multiple of 3 or 5.  
+Then go from slot 1 on up and put either the number into the array location (if it is not a multiple
+of 3 or 5), or put the appropriate "fizz", "buzz", or "fizzbuzz" into the array location.
+When done, print out the 4th, 11th, 18th, and last elements (each with a separate alert).
+
+596d0f57a69c32e7768f335f stotts
+"use strict";
+
+function myMain() {
+  var arr = [];
+  arr[0]=0
+  for (var i=1; i<31; i++) {
+    if (i%3===0 && i%5===0) {arr [i]= "fizzbuzz";}
+    else if (i%3===0) {arr[i]="fizz";}
+    else if (i%5===0) {arr[i]="buzz";}
+    else arr[i]=i;
+     
+  }
+  alert (arr[4]);
+  alert (arr[11]);
+  alert (arr[18]);
+  alert (arr[arr.length-1]);
+}
+
+myMain();
+
+************************************************************************
+
+597f37bcc7423e5827d50144 stotts
+"use strict"
+function fizzbuzz(n){
+        if(n%3==0 && n%5!=0){
+			n="fizz"
+		}
+		
+		else if(n%5==0 && n%3!=0){
+			n="buzz"
+		}
+		
+		else if(n%3==0 && n%5==0){
+			n="fizzbuzz"
+		}
+    
+    	return n;
+}
+
+function my_main() {
+  var arr=[];
+  var q=30;
+  for (var x=0; x<=q; x++) {
+    if(x==0){
+      arr[x]=0
+    }
+    
+    else{
+    arr[x]=fizzbuzz(x)
+    }
+  }
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[30]);
+}
+
+my_main();
+************************************************************************
+
+597f38b7c7423e5827d50145 stotts
+"use strict"
+function fizzbuzz(n){
+        if(n%3==0 && n%5!=0){
+			n="fizz"
+		}
+		
+		else if(n%5==0 && n%3!=0){
+			n="buzz"
+		}
+		
+		else if(n%3==0 && n%5==0){
+			n="fizzbuzz"
+		}
+    
+    	return n;
+}
+
+function my_main() {
+  var arr=[];
+  var q=30;
+  for (var x=0; x<=q; x++) {
+    if(x==0){
+      arr[x]=0
+    }
+    
+    else{
+    arr[x]=fizzbuzz(x)
+    }
+  }
+  alert(arr);
+  alert(arr[3]);
+  alert(arr[10]);
+  alert(arr[17]);
+  alert(arr[30]);
+}
+
+my_main();
+************************************************************************
+
+5a9ef9c1e7c26488726d382d landy321
+"use strict";
+
+function myMain() {
+  var arr=[0, 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz", "fizz", 17, "fizz", 19, "buzz", "fizz", 22, 23, "fizz", "buzz", "fizz", "fizz", 28, 29, "fizzbuzz"];
+
+  var n = 0;
+  var num = 30
+  
+  for (var i=0; i<num; i++) {
+    arr[i]=n;
+    num = n+1;
+  }
+  alert (arr[4]);
+  alert (arr[11]);
+  alert (arr[18]);
+  alert (arr[arr.length-1]);
+}
+
+myMain();
+************************************************************************
+
+5a9efaa9e7c26488726d382e landy321
+"use strict";
+
+function myMain() {
+  var arr=[0, 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz", "fizz", 17, "fizz", 19, "buzz", "fizz", 22, 23, "fizz", "buzz", "fizz", "fizz", 28, 29, "fizzbuzz"];
+
+  var n = 0;
+  
+  for (var i=0; i<arr.length; i++) {
+    arr[i]=n;
+    n = i+1
+  }
+  alert (arr[4]);
+  alert (arr[11]);
+  alert (arr[18]);
+  alert (arr[arr.length-1]);
+}
+
+myMain();
+************************************************************************
+
+5a9efac7e7c26488726d382f landy321
+"use strict";
+
+function myMain() {
+  var arr=[0, 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz", "fizz", 17, "fizz", 19, "buzz", "fizz", 22, 23, "fizz", "buzz", "fizz", "fizz", 28, 29, "fizzbuzz"];
+
+  var n = 0;
+  
+  for (var i=0; i<arr.length; i++) {
+    arr[i] = n;
+    n = n+1
+  }
+  alert (arr[4]);
+  alert (arr[11]);
+  alert (arr[18]);
+  alert (arr[arr.length-1]);
+}
+
+myMain();
+************************************************************************
+
+5a9efb31e7c26488726d3830 landy321
+"use strict";
+
+function myMain() {
+  var arr=[0, 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz", "fizz", 17, "fizz", 19, "buzz", "fizz", 22, 23, "fizz", "buzz", "fizz", "fizz", 28, 29, "fizzbuzz"];
+
+  var n = 0;
+  
+  for (var i=0; i<arr.length; i++) {
+    n = arr[i];
+    
+  }
+  alert (arr[4]);
+  alert (arr[11]);
+  alert (arr[18]);
+  alert (arr[arr.length-1]);
+}
+
+myMain();
+************************************************************************
+
+5a9efc3ee7c26488726d3831 landy321
+"use strict";
+
+function myMain() {
+  var arr=[0, 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz", "fizz", 17, "fizz", 19, "buzz", "fizz", 22, 23, "fizz", "buzz", "fizz", "fizz", 28, 29, "fizzbuzz"];
+
+  var n = 1;
+  
+  for (var i=0; i<arr.length; i++) {
+    n = arr[i];
+    
+  }
+  alert (arr[4]);
+  alert (arr[11]);
+  alert (arr[18]);
+  alert (arr[arr.length-1]);
+}
+
+myMain();
+************************************************************************
+
+5a9efc5ee7c26488726d3832 landy321
+"use strict";
+
+function myMain() {
+  var arr=[0, 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz", "fizz", 17, "fizz", 19, "buzz", "fizz", 22, 23, "fizz", "buzz", "fizz", "fizz", 28, 29, "fizzbuzz"];
+
+  var n = 0;
+  
+  for (var i=0; i<arr.length; i++) {
+    n = arr[i]+1;
+    
+  }
+  alert (arr[4]);
+  alert (arr[11]);
+  alert (arr[18]);
+  alert (arr[arr.length-1]);
+}
+
+myMain();
+************************************************************************
+
+5a9efcf0e7c26488726d3833 landy321
+"use strict";
+
+function myMain() {
+  var arr=[0, 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz", 16, 17, "fizz", 19, "buzz", "fizz", 22, 23, "fizz", "buzz", "fizz", "fizz", 28, 29, "fizzbuzz"];
+
+  var n = 0;
+  
+  for (var i=0; i<arr.length; i++) {
+    n = arr[i];
+    
+  }
+  alert (arr[4]);
+  alert (arr[11]);
+  alert (arr[18]);
+  alert (arr[arr.length-1]);
+}
+
+myMain();
+************************************************************************
+
+5a9efd2be7c26488726d3834 landy321
+"use strict";
+
+function myMain() {
+  var arr=[0, 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz", 16, 17, "fizz", 19, "buzz", "fizz", 22, 23, "fizz", "buzz", 26, "fizz", 28, 29, "fizzbuzz"];
+
+  var n = 0;
+  
+  for (var i=0; i<arr.length; i++) {
+    n = arr[i];
+    
+  }
+  alert (arr[4]);
+  alert (arr[11]);
+  alert (arr[18]);
+  alert (arr[arr.length-1]);
+}
+
+myMain();
+************************************************************************
+
+5a9efe83e7c26488726d3835 landy321
+"use strict";
+
+function myMain() {
+  var arr=[0, 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz", 16, 17, "fizz", 19, "buzz", "fizz", 22, 23, "fizz", "buzz", 26, "fizz", 28, 29, "fizzbuzz"];
+
+  var n = 0;
+  
+  for (var i=0; i<arr.length; i++) {
+    
+    
+  }
+  alert (arr[4]);
+  alert (arr[11]);
+  alert (arr[18]);
+  alert (arr[arr.length-1]);
+}
+
+myMain();
+************************************************************************
+
+5a9f0000e7c26488726d3836 landy321
+"use strict";
+
+function myMain() {
+  var arr=[0, 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz", 16, 17, "fizz", 19, "buzz", "fizz", 22, 23, "fizz", "buzz", 26, "fizz", 28, 29, "fizzbuzz"];
+
+  var n = 0;
+  
+  for (var i=0; i<arr.length; i++) {
+    n = arr[i]-1;
+    
+  }
+  alert (arr[4]);
+  alert (arr[11]);
+  alert (arr[18]);
+  alert (arr[arr.length-1]);
+}
+
+myMain();
+************************************************************************
+
+5a9f038fe7c26488726d3838 landy321
+"use strict";
+
+function myMain() {
+  var arr=[0, 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz", 16, 17, "fizz", 19, "buzz", "fizz", 22, 23, "fizz", "buzz", 26, "fizz", 28, 29, "fizzbuzz"];
+
+  
+  
+  for (var i=0; i<arr.length; i++) {
+    
+    
+  }
+  alert (arr[4]);
+  alert (arr[11]);
+  alert (arr[18]);
+  alert (arr[arr.length-1]);
+}
+
+myMain();
+************************************************************************
+
+5a9f0432e7c26488726d3839 landy321
+"use strict";
+
+function myMain() {
+  var arr=[0, 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz", 16, 17, "fizz", 19, "buzz", "fizz", 22, 23, "fizz", "buzz", 26, "fizz", 28, 29, "fizzbuzz"];
+
+  
+  var n = 0
+  for (var i=0; i<arr.length; i++) {
+  arr[n] = i ;  
+    
+  }
+  alert (arr[4]);
+  alert (arr[11]);
+  alert (arr[18]);
+  alert (arr[arr.length-1]);
+}
+
+myMain();
+************************************************************************
+
+5a9f0484e7c26488726d383a landy321
+"use strict";
+
+function myMain() {
+  var arr=[0, 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz", 16, 17, "fizz", 19, "buzz", "fizz", 22, 23, "fizz", "buzz", 26, "fizz", 28, 29, "fizzbuzz"];
+
+  
+  var n = 0
+  for (var n=0; n<arr.length; n++) {
+    arr[n];  
+    
+  }
+  alert (arr[4]);
+  alert (arr[11]);
+  alert (arr[18]);
+  alert (arr[arr.length-1]);
+}
+
+myMain();
+************************************************************************
+
+5aa1e18a77656f940f84151f paigeall
+"use strict";
+
+function myMain() {
+  var arr = [] ; 
+  var total = 31; 
+  for (var i=0; i<(total); i++) {
+    arr[i] = fizzbuzz(i); 
+  }
+  alert(arr[4]);
+  alert(arr[11]); 
+  alert(arr[18]);
+  alert(arr[arr.length-1]); 
+  
+}
+
+
+function fizzbuzz (x) {
+    if ((x%3) === 0 & (x%5) === 0) {x = "fizzbuzz"} 
+    else if ((x%3) === 0) {x = "fizz"} 
+    else if ((x%5) === 0) {x = "buzz"} 
+  else {x=x}; 
+  return x; 
+  } 
+
+myMain();
+
+  
+************************************************************************
+
+5aa1e1b877656f940f841522 paigeall
+"use strict";
+
+function myMain() {
+  var arr = [] ; 
+  var total = 31; 
+  for (var i=0; i<(total); i++) {
+    arr[i] = fizzbuzz(i); 
+    arr[0] = 0; 
+  }
+  alert(arr[4]);
+  alert(arr[11]); 
+  alert(arr[18]);
+  alert(arr[arr.length-1]); 
+  
+}
+
+
+function fizzbuzz (x) {
+    if ((x%3) === 0 & (x%5) === 0) {x = "fizzbuzz"} 
+    else if ((x%3) === 0) {x = "fizz"} 
+    else if ((x%5) === 0) {x = "buzz"} 
+  else {x=x}; 
+  return x; 
+  } 
+
+myMain();
+
+  
+************************************************************************
+
+5aa1e1ed77656f940f841523 paigeall
+"use strict";
+
+function myMain() {
+  var arr = [] ; 
+  var total = 31; 
+  for (var i=0; i<(total); i++) {
+    arr[i] = fizzbuzz(i); 
+    arr[0] = 0; 
+  }
+  alert(arr[4]);
+  alert(arr[11]); 
+  alert(arr[18]);
+  alert(arr[arr.length-1]); 
+  
+}
+
+
+function fizzbuzz (x) {
+    if ((x%3) === 0 & (x%5) === 0) {x = "fizzbuzz"} 
+    else if ((x%3) === 0) {x = "fizz"} 
+    else if ((x%5) === 0) {x = "buzz"} 
+  else {x=x}; 
+  return x; 
+  } 
+
+myMain();
+
+  
+************************************************************************
+
+5aa1e24677656f940f841525 paigeall
+"use strict";
+
+function myMain() {
+  var arr = [] ; 
+  var total = 31; 
+  for (var i=0; i<(total); i++) {
+    arr[i] = fizzbuzz(i); 
+  
+  }
+  arr[0] = 0; 
+  alert(arr[4]);
+  alert(arr[11]); 
+  alert(arr[18]);
+  alert(arr[arr.length-1]); 
+  
+}
+
+
+function fizzbuzz (x) {
+    if ((x%3) === 0 & (x%5) === 0) {x = "fizzbuzz"} 
+    else if ((x%3) === 0) {x = "fizz"} 
+    else if ((x%5) === 0) {x = "buzz"} 
+  else {x=x}; 
+  return x; 
+  } 
+
+myMain();
+
+  
+************************************************************************
+
+5aa1e26277656f940f841526 paigeall
+"use strict";
+
+function myMain() {
+  var arr = [] ; 
+  var total = 31; 
+  for (var i=0; i<(total); i++) {
+    arr[i] = fizzbuzz(i); 
+  
+  }
+  arr[0] = 0; 
+  alert(arr[0]);
+  alert(arr[4]);
+  alert(arr[11]); 
+  alert(arr[18]);
+  alert(arr[arr.length-1]); 
+  
+}
+
+
+function fizzbuzz (x) {
+    if ((x%3) === 0 & (x%5) === 0) {x = "fizzbuzz"} 
+    else if ((x%3) === 0) {x = "fizz"} 
+    else if ((x%5) === 0) {x = "buzz"} 
+  else {x=x}; 
+  return x; 
+  } 
+
+myMain();
+
+  
+************************************************************************
+
+5aa1e28977656f940f841527 paigeall
+"use strict";
+
+function myMain() {
+  var arr = [] ; 
+  var total = 31; 
+  for (var i=0; i<(total); i++) {
+    arr[i] = fizzbuzz(i); 
+  
+  }
+  arr[0] = 0; 
+  alert(arr[4]);
+  alert(arr[11]); 
+  alert(arr[18]);
+  alert(arr[arr.length-1]); 
+  
+}
+
+
+function fizzbuzz (x) {
+    if ((x%3) === 0 & (x%5) === 0) {x = "fizzbuzz"} 
+    else if ((x%3) === 0) {x = "fizz"} 
+    else if ((x%5) === 0) {x = "buzz"} 
+  else {x=x}; 
+  return x; 
+  } 
+
+myMain();
+
+  
+************************************************************************
+
+5aa1e2b577656f940f841528 paigeall
+"use strict";
+
+function myMain() {
+  var arr = [] ; 
+  var total = 31; 
+  for (var i=0; i<(total); i++) {
+    arr[i] = fizzbuzz(i); 
+  
+  }
+  arr[0] = 0; 
+  alert(arr[4]);
+  alert(arr[11]); 
+  alert(arr[18]);
+  alert(arr[arr.length-1]); 
+  
+}
+
+
+function fizzbuzz (x) {
+    if ((x%3) === 0 & (x%5) === 0) {x = "fizzbuzz"} 
+    else if ((x%3) === 0) {x = "fizz"} 
+    else if ((x%5) === 0) {x = "buzz"} 
+  else {x=x}; 
+  return x; 
+  } 
+
+myMain();
+
+  
+************************************************************************
+
+5aa3259077656f940f841533 paigeall
+"use strict";
+
+function myMain() {
+  var arr = [] ; 
+  var total = 31; 
+  for (var i=0; i<(total); i++) {
+    arr[i] = fizzbuzz(i); 
+  
+  }
+  arr[0] = 0; 
+  alert(arr[4]);
+  alert(arr[11]); 
+  alert(arr[18]);
+  alert(arr[arr.length-1]); 
+  
+}
+
+
+function fizzbuzz (x) {
+    if ((x%3) === 0 & (x%5) === 0) {x = "fizzbuzz"} 
+    else if ((x%3) === 0) {x = "fizz"} 
+    else if ((x%5) === 0) {x = "buzz"} 
+  else {x=x}; 
+  return x; 
+  } 
+
+myMain();
+
+  
+************************************************************************
+
+5aa325a477656f940f841534 paigeall
+"use strict";
+
+function myMain() {
+  var arr = [] ; 
+  var total = 31; 
+  for (var i=0; i<(total); i++) {
+    arr[i] = fizzbuzz(i); 
+  
+  }
+  arr[0] = 0; 
+  alert(arr[5]);
+  alert(arr[12]); 
+  alert(arr[19]);
+  alert(arr[arr.length-1]); 
+  
+}
+
+
+function fizzbuzz (x) {
+    if ((x%3) === 0 & (x%5) === 0) {x = "fizzbuzz"} 
+    else if ((x%3) === 0) {x = "fizz"} 
+    else if ((x%5) === 0) {x = "buzz"} 
+  else {x=x}; 
+  return x; 
+  } 
+
+myMain();
+
+  
+************************************************************************
+
+5aa3571677656f940f84154e rdango7
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var stop = 31
+  for (var i=0; i<stop; i++) {
+    if ((count % 3)===0 && (count % 5)===0) {arr[i] ="fizzbuzz";}
+    else if ((count % 3)===0) {arr[i]="fizz";}
+    else if ((count % 5)===0) {arr[i]="buzz";}
+    else {arr[i] = count}
+    count++;
+  
+  }
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+   
+  
+}
+
+
+myMain();
+
+
+//function myMain() {
+  //var uNum = 1;
+  //var sum = 0;
+  //while ( sum <20 ) { 
+    //sum = uNum + sum;
+    //if ((sum % 3)===0 && (sum % 5)===0) {alert("fizzbuzz");}
+    //else if ((sum % 3)===0) {alert("fizz");}
+    //else if ((sum % 5)===0) {alert("buzz");}
+    //else {alert(sum);}
+
+
+************************************************************************
+
+5aa3573677656f940f84154f rdango7
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var stop = 32
+  for (var i=0; i<stop; i++) {
+    if ((count % 3)===0 && (count % 5)===0) {arr[i] ="fizzbuzz";}
+    else if ((count % 3)===0) {arr[i]="fizz";}
+    else if ((count % 5)===0) {arr[i]="buzz";}
+    else {arr[i] = count}
+    count++;
+  
+  }
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+   
+  
+}
+
+
+myMain();
+
+
+//function myMain() {
+  //var uNum = 1;
+  //var sum = 0;
+  //while ( sum <20 ) { 
+    //sum = uNum + sum;
+    //if ((sum % 3)===0 && (sum % 5)===0) {alert("fizzbuzz");}
+    //else if ((sum % 3)===0) {alert("fizz");}
+    //else if ((sum % 5)===0) {alert("buzz");}
+    //else {alert(sum);}
+
+
+************************************************************************
+
+5aa3574d77656f940f841550 rdango7
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var stop = 31
+  for (var i=0; i<stop; i++) {
+    if ((count % 3)===0 && (count % 5)===0) {arr[i] ="fizzbuzz";}
+    else if ((count % 3)===0) {arr[i]="fizz";}
+    else if ((count % 5)===0) {arr[i]="buzz";}
+    else {arr[i] = count}
+    count++;
+  
+  }
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+   
+  
+}
+
+
+myMain();
+
+
+//function myMain() {
+  //var uNum = 1;
+  //var sum = 0;
+  //while ( sum <20 ) { 
+    //sum = uNum + sum;
+    //if ((sum % 3)===0 && (sum % 5)===0) {alert("fizzbuzz");}
+    //else if ((sum % 3)===0) {alert("fizz");}
+    //else if ((sum % 5)===0) {alert("buzz");}
+    //else {alert(sum);}
+
+
+************************************************************************
+
+5aa3589277656f940f841552 rdango7
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var stop = 31
+  for (var i=0; i<stop; i++) {
+    if ((count % 3)===0 && (count % 5)===0) {arr[i] ="fizzbuzz";}
+    else if ((count % 3)===0) {arr[i]="fizz";}
+    else if ((count % 5)===0) {arr[i]="buzz";}
+    else {arr[i] = count}
+    count++;
+  
+  }
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[30]);
+   
+  
+}
+
+
+myMain();
+
+
+//function myMain() {
+  //var uNum = 1;
+  //var sum = 0;
+  //while ( sum <20 ) { 
+    //sum = uNum + sum;
+    //if ((sum % 3)===0 && (sum % 5)===0) {alert("fizzbuzz");}
+    //else if ((sum % 3)===0) {alert("fizz");}
+    //else if ((sum % 5)===0) {alert("buzz");}
+    //else {alert(sum);}
+
+
+************************************************************************
+
+5aa358a777656f940f841553 rdango7
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var stop = 31
+  for (var i=0; i<stop; i++) {
+    if ((count % 3)===0 && (count % 5)===0) {arr[i] ="fizzbuzz";}
+    else if ((count % 3)===0) {arr[i]="fizz";}
+    else if ((count % 5)===0) {arr[i]="buzz";}
+    else {arr[i] = count}
+    count++;
+  
+  }
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length]);
+   
+  
+}
+
+
+myMain();
+
+
+//function myMain() {
+  //var uNum = 1;
+  //var sum = 0;
+  //while ( sum <20 ) { 
+    //sum = uNum + sum;
+    //if ((sum % 3)===0 && (sum % 5)===0) {alert("fizzbuzz");}
+    //else if ((sum % 3)===0) {alert("fizz");}
+    //else if ((sum % 5)===0) {alert("buzz");}
+    //else {alert(sum);}
+
+
+************************************************************************
+
+5aa358c677656f940f841554 rdango7
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var stop = 31
+  for (var i=0; i<stop; i++) {
+    count++;
+    if ((count % 3)===0 && (count % 5)===0) {arr[i] ="fizzbuzz";}
+    else if ((count % 3)===0) {arr[i]="fizz";}
+    else if ((count % 5)===0) {arr[i]="buzz";}
+    else {arr[i] = count}
+    
+  
+  }
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length]);
+   
+  
+}
+
+
+myMain();
+
+
+//function myMain() {
+  //var uNum = 1;
+  //var sum = 0;
+  //while ( sum <20 ) { 
+    //sum = uNum + sum;
+    //if ((sum % 3)===0 && (sum % 5)===0) {alert("fizzbuzz");}
+    //else if ((sum % 3)===0) {alert("fizz");}
+    //else if ((sum % 5)===0) {alert("buzz");}
+    //else {alert(sum);}
+
+
+************************************************************************
+
+5aa358cd77656f940f841555 rdango7
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var stop = 31
+  for (var i=0; i<stop; i++) {
+    count++;
+    if ((count % 3)===0 && (count % 5)===0) {arr[i] ="fizzbuzz";}
+    else if ((count % 3)===0) {arr[i]="fizz";}
+    else if ((count % 5)===0) {arr[i]="buzz";}
+    else {arr[i] = count}
+    
+  
+  }
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+   
+  
+}
+
+
+myMain();
+
+
+//function myMain() {
+  //var uNum = 1;
+  //var sum = 0;
+  //while ( sum <20 ) { 
+    //sum = uNum + sum;
+    //if ((sum % 3)===0 && (sum % 5)===0) {alert("fizzbuzz");}
+    //else if ((sum % 3)===0) {alert("fizz");}
+    //else if ((sum % 5)===0) {alert("buzz");}
+    //else {alert(sum);}
+
+
+************************************************************************
+
+5aa358ff77656f940f841556 rdango7
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var stop = 30;
+  for (var i=0; i<stop; i++) {
+    count++;
+    if ((count % 3)===0 && (count % 5)===0) {arr[i] ="fizzbuzz";}
+    else if ((count % 3)===0) {arr[i]="fizz";}
+    else if ((count % 5)===0) {arr[i]="buzz";}
+    else {arr[i] = count}
+    
+  
+  }
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+   
+  
+}
+
+
+myMain();
+
+
+//function myMain() {
+  //var uNum = 1;
+  //var sum = 0;
+  //while ( sum <20 ) { 
+    //sum = uNum + sum;
+    //if ((sum % 3)===0 && (sum % 5)===0) {alert("fizzbuzz");}
+    //else if ((sum % 3)===0) {alert("fizz");}
+    //else if ((sum % 5)===0) {alert("buzz");}
+    //else {alert(sum);}
+
+
+************************************************************************
+
+5ab1597b77656f940f8416d3 yxu27
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var total = 30;
+  arr[0]=0
+  for (var i = 1; i <= total; i++) {
+    count +=1
+    if (count%3==0 && count%5!=0) {count == "fizz";}
+    else if (count%5==0 && count%3!=0) {count == "buzz";}
+    else if (count%3==0 && count%5==0) {count == "fizzbuzz";}
+    else {count == count}
+    
+    arr[i] = count;
+  }
+  
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+  
+}
+   
+
+myMain();
+************************************************************************
+
+5ab15b2d77656f940f8416d5 yxu27
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var total = 30;
+  arr[0]=0
+  for (var i = 1; i <= total; i++) {
+    count +=1
+    arr[i] = count;
+    if (arr[i]%3==0 && arr[i]%5!=0) {arr[i] == "fizz";}
+    else if (arr[i]%5==0 && arr[i]%3!=0) {arr[i] == "buzz";}
+    else if (arr[i]%3==0 && arr[i]%5==0) {arr[i] == "fizzbuzz";}
+    
+  }
+  
+  
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+  
+}
+   
+
+myMain();
+************************************************************************
+
+5ab15c5c77656f940f8416d8 yxu27
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var total = 30;
+  arr[0]=0
+  for (var i = 1; i <= total; i++) {
+    count +=1
+    arr[i] = count;
+    if (arr[i]%3==0 && arr[i]%5!=0) {arr[i] = "fizz";}
+    else if (arr[i]%5==0 && arr[i]%3!=0) {arr[i] ="buzz";}
+    else if (arr[i]%3==0 && arr[i]%5==0) {arr[i] ="fizzbuzz";}
+    
+  }
+  
+  
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+  
+}
+   
+
+myMain();
+************************************************************************
+
+5ab15c7c77656f940f8416d9 yxu27
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var total = 30;
+  arr[0]=0
+  for (var i = 1; i <= total; i++) {
+    count +=1
+    arr[i] = count;
+    if (arr[i]%3==0 && arr[i]%5!=0) {arr[i] = "fizz";}
+    else if (arr[i]%5==0 && arr[i]%3!=0) {arr[i] ="buzz";}
+    else if (arr[i]%3==0 && arr[i]%5==0) {arr[i] ="fizzbuzz";}
+    
+  }
+  
+  
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+  
+}
+   
+
+myMain();
+************************************************************************
+
+5ab15cd877656f940f8416da yxu27
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var total = 30;
+  arr[0]=0
+  for (var i = 0; i <= total; i++) {
+    count +=1
+    arr[i] = count;
+    if (arr[i]%3==0 && arr[i]%5!=0) {arr[i] = "fizz";}
+    else if (arr[i]%5==0 && arr[i]%3!=0) {arr[i] ="buzz";}
+    else if (arr[i]%3==0 && arr[i]%5==0) {arr[i] ="fizzbuzz";}
+    
+  }
+  
+  
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+  
+}
+   
+
+myMain();
+************************************************************************
+
+5ab1981177656f940f8416e8 masonma
+"use strict";
+function myMain() {
+  var arr=[0,1,2,"fizz",4,"buzz","fizz",7,8,"fizz","buzz",11,"fizz",13,14,"fizzbuzz",16,17,"fizz",19,"buzz","fizz",22,23,"fizz","buzz",26,"fizz",28,29,"fizzbuzz"];
+  for (var i=0; i<arr.length; i++) {
+    alert(arr[4]);
+    alert(arr[11]);
+    alert(arr[18]);
+    alert(arr[30]);
+  }
+}
+myMain();
+  
+
+************************************************************************
+
+5ab1983477656f940f8416e9 masonma
+"use strict";
+function myMain() {
+  var arr=[0,1,2,"fizz",4,"buzz","fizz",7,8,"fizz","buzz",11,"fizz",13,14,"fizzbuzz",16,17,"fizz",19,"buzz","fizz",22,23,"fizz","buzz",26,"fizz",28,29,"fizzbuzz"];
+  for (var i=0; i<arr.length; i++) {
+    alert(arr[3]);
+    alert(arr[10]);
+    alert(arr[17]);
+    alert(arr[31]);
+  }
+}
+myMain();
+  
+
+************************************************************************
+
+5ab19a2677656f940f8416ef masonma
+"use strict";
+function myMain() {
+  var arr=[];
+  for (var i=0; i<30; i++) {
+    arr[i]=i
+    if (i%3 === 0 && i%5 === 0) {arr[i]="fizzbuzz";}
+    if (i%3 === 0 && i%5 !== 0) {arr[i]="fizz";}
+    if (i%3 !== 0 && i%5 === 0) {arr[i]="buzz";}
+      }
+      
+    alert(arr[3]);
+    alert(arr[10]);
+    alert(arr[17]);
+    alert(arr[30]);
+}
+myMain();
+  
+
+************************************************************************
+
+5ab19a3e77656f940f8416f0 masonma
+"use strict";
+function myMain() {
+  var arr=[];
+  for (var i=0; i<30; i++) {
+    arr[i]=i
+    if (i%3 === 0 && i%5 === 0) {arr[i]="fizzbuzz";}
+    if (i%3 === 0 && i%5 !== 0) {arr[i]="fizz";}
+    if (i%3 !== 0 && i%5 === 0) {arr[i]="buzz";}
+      }
+      
+    alert(arr[4]);
+    alert(arr[11]);
+    alert(arr[18]);
+    alert(arr[30]);
+}
+myMain();
+  
+
+************************************************************************
+
+5ab19a4e77656f940f8416f1 masonma
+"use strict";
+function myMain() {
+  var arr=[];
+  for (var i=0; i<31; i++) {
+    arr[i]=i
+    if (i%3 === 0 && i%5 === 0) {arr[i]="fizzbuzz";}
+    if (i%3 === 0 && i%5 !== 0) {arr[i]="fizz";}
+    if (i%3 !== 0 && i%5 === 0) {arr[i]="buzz";}
+      }
+      
+    alert(arr[4]);
+    alert(arr[11]);
+    alert(arr[18]);
+    alert(arr[31]);
+}
+myMain();
+  
+
+************************************************************************
+
+5ab3805477656f940f841772 aaronlle
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  for (var i=0; i<=30; i++) {
+    arr[0] = 0;
+    if((i%3 == 0) && (x%5==0)) { arr[i] = ("fizzbuzz"); }
+    if(x%3 == 0) { arr[i] = ("fizz"); }
+    if(x%5 == 0) { arr[i] = ("buzz"); }
+      else { arr[i] = i; }
+  }
+  
+  alert(arr[3]);
+  alert(arr[10]);
+  alert(arr[18]);
+}
+
+myMain();
+
+************************************************************************
+
+5ab3806777656f940f841773 aaronlle
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  for (var i=0; i<=30; i++) {
+    arr[0] = 0;
+    if((i%3 == 0) && (i%5==0)) { arr[i] = ("fizzbuzz"); }
+    if(i%3 == 0) { arr[i] = ("fizz"); }
+    if(i%5 == 0) { arr[i] = ("buzz"); }
+      else { arr[i] = i; }
+  }
+  
+  alert(arr[3]);
+  alert(arr[10]);
+  alert(arr[18]);
+}
+
+myMain();
+
+************************************************************************
+
+5ab3808977656f940f841774 aaronlle
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  for (var i=0; i<=30; i++) {
+    arr[0] = 0;
+    if((i%3 == 0) && (i%5==0)) { arr[i] = ("fizzbuzz"); }
+    if(i%3 == 0) { arr[i] = ("fizz"); }
+    if(i%5 == 0) { arr[i] = ("buzz"); }
+      else { arr[i] = i; }
+  }
+  
+  alert(arr[3]);
+  alert(arr[10]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+}
+
+myMain();
+
+************************************************************************
+
+5ab380f277656f940f841775 aaronlle
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  for (var i=0; i<=30; i++) {
+    arr[0] = 0;
+    if(i%3 == 0) { arr[i] = ("fizz"); }
+    if(i%5 == 0) { arr[i] = ("buzz"); }
+    if((i%3 == 0) && (i%5==0)) { arr[i] = ("fizzbuzz"); }
+      else { arr[i] = i; }
+  }
+  
+  alert(arr[3]);
+  alert(arr[10]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+}
+
+myMain();
+
+************************************************************************
+
+5ab3834077656f940f841776 aaronlle
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  arr[0] = 0;
+  for (var i=0; i<=30; i++) {
+    if((i%3 == 0) && (i%5==0)) { arr[i] = ("fizzbuzz"); return; }
+    if(i%3 == 0) { arr[i] = ("fizz"); return; }
+    if(i%5 == 0) { arr[i] = ("buzz"); return; }
+    else { arr[i] = i; }
+  }
+  
+  alert(arr[3]);
+  alert(arr[10]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+}
+
+myMain();
+
+
+************************************************************************
+
+5ab3836777656f940f841777 aaronlle
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  arr[0] = 0;
+  for (var i=0; i<=30; i++) {
+    if((i%3 == 0) && (i%5==0)) { arr[i] = ("fizzbuzz"); }
+    if(i%3 == 0) { arr[i] = ("fizz"); }
+    if(i%5 == 0) { arr[i] = ("buzz"); }
+    else { arr[i] = i; }
+  }
+  
+  alert(arr[4]);
+  alert(arr[10]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+}
+
+myMain();
+
+
+************************************************************************
+
+5ab3837577656f940f841778 aaronlle
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  arr[0] = 0;
+  for (var i=0; i<=30; i++) {
+    if((i%3 == 0) && (i%5==0)) { arr[i] = ("fizzbuzz"); }
+    if(i%3 == 0) { arr[i] = ("fizz"); }
+    if(i%5 == 0) { arr[i] = ("buzz"); }
+    else { arr[i] = i; }
+  }
+  
+  alert(arr[3]);
+  alert(arr[10]);
+  alert(arr[17]);
+  alert(arr[arr.length-1]);
+}
+
+myMain();
+
+
+************************************************************************
+
+5ab3838177656f940f841779 aaronlle
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  arr[0] = 0;
+  for (var i=0; i<=30; i++) {
+    if((i%3 == 0) && (i%5==0)) { arr[i] = ("fizzbuzz"); }
+    if(i%3 == 0) { arr[i] = ("fizz"); }
+    if(i%5 == 0) { arr[i] = ("buzz"); }
+    else { arr[i] = i; }
+  }
+  
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+}
+
+myMain();
+
+
+************************************************************************
+
+5ab470f077656f940f8417b8 rdango7
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var stop = 30;
+  for (var i=0; i<stop; i++) {
+    if ((count % 3)===0 && (count % 5)===0) {arr[i] ="fizzbuzz";}
+    else if ((count % 3)===0) {arr[i]="fizz";}
+    else if ((count % 5)===0) {arr[i]="buzz";}
+    else {arr[i] = count}
+    count++;
+    
+  
+  }
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+   
+  
+}
+
+
+myMain();
+
+
+//function myMain() {
+  //var uNum = 1;
+  //var sum = 0;
+  //while ( sum <20 ) { 
+    //sum = uNum + sum;
+    //if ((sum % 3)===0 && (sum % 5)===0) {alert("fizzbuzz");}
+    //else if ((sum % 3)===0) {alert("fizz");}
+    //else if ((sum % 5)===0) {alert("buzz");}
+    //else {alert(sum);}
+
+
+************************************************************************
+
+5ab511da77656f940f8417c5 noahnoah
+"use strict";
+
+function myMain () {
+  var arr = [];
+  var int = 30;
+  for (var i = 0; i <= int; i++) {
+    if ((i % 3) === 0 && (i % 5) !== 0) {arr[i] = ("fizz")}
+    if ((i % 5) === 0 && (i % 3) !== 0) {arr[i] = ("buzz")}
+    if ((i % 3) === 0 && (i % 5) === 0) {arr[i] = ("fizzbuzz");}
+    else {arr[i] = i;}
+} 
+  alert(arr[3]);
+  alert(arr[10]);
+  alert(arr[17]);
+  alert(arr[30]);
+  
+}
+
+myMain () ;
+************************************************************************
+
+5ae107a53a109ccc0e7418a8 kristen5
+"use strict";
+
+function myMain() {
+  var primes = [2,3,5,7,11,13,17,19,23,29]; 
+  var sum = 0; 
+  for (var i=0; i<primes.length; i++) { 
+    sum = sum + primes[i]; 
+  }
+  alert(sum/primes.length); 
+}
+
+myMain(); 
+
+************************************************************************
+
+5aee65963a109ccc0e741aa1 parks17
+"use strict";
+
+function myMain() {
+  var i=0;
+  var array = [];
+  var value;
+  for (i=0; i<31; i++) {
+    value = i;
+    if (value%3===0 && value%5===0) {array[i] = "fizzbuzz"}
+    else if (value%3===0) {array[i] = "fizz"}
+    else if (value%5===0) {array[i] = "buzz"}
+    else {array[i] = value}
+    i++;
+  }
+  alert(array[3]);
+  alert(array[10]);
+  alert(array[17]);
+  alert(array[30]);
+}
+
+myMain();
+************************************************************************
+
+5aee664b3a109ccc0e741aa5 parks17
+"use strict";
+
+function myMain() {
+  var i=0;
+  var array = [];
+  var value;
+  array[0] = 0;
+  for (i=1; i<30; i++) {
+    value = i;
+    if (value%3===0 && value%5===0) {array[i] = "fizzbuzz"}
+    else if (value%3===0) {array[i] = "fizz"}
+    else if (value%5===0) {array[i] = "buzz"}
+    else {array[i] = value}
+    i++;
+  }
+  alert(array[3]);
+  alert(array[10]);
+  alert(array[17]);
+  alert(array[30]);
+}
+
+myMain();
+************************************************************************
+
+5ae89d973a109ccc0e74196b yxu27
+"use strict";
+
+function myMain() {
+  var arr = [ ];
+  var count = 0;
+  var total = 30;
+  
+  for (var i = 1; i <= total; i++) {
+    count +=1
+    arr[i] = count;
+    if (arr[i]%3==0 && arr[i]%5!=0) {arr[i] = "fizz";}
+    else if (arr[i]%5==0 && arr[i]%3!=0) {arr[i] ="buzz";}
+    else if (arr[i]%3==0 && arr[i]%5==0) {arr[i] ="fizzbuzz";}
+    
+  }
+  arr[0]=0
+  
+  
+  alert(arr[4]);
+  alert(arr[11]);
+  alert(arr[18]);
+  alert(arr[arr.length-1]);
+  
+}
+   
+
+myMain();
+************************************************************************
+
+5aef53333a109ccc0e741b2c watsonsl
+"use strict";
+
+function myMain() {
+  var primes = [2,3,5,7,11,13,17,19,23,29];
+  var sum = 0;
+  for (var i=0; i<primes.length; i++) {
+  sum = sum + primes[i];
+  }
+  var avg = sum/primes.length;
+alert( avg );
+  }
+
+myMain();
+************************************************************************
+
+5aee65b53a109ccc0e741aa2 parks17
+"use strict";
+
+function myMain() {
+  var i=0;
+  var array = [];
+  var value;
+  for (i=1; i<31; i++) {
+    value = i;
+    if (value%3===0 && value%5===0) {array[i] = "fizzbuzz"}
+    else if (value%3===0) {array[i] = "fizz"}
+    else if (value%5===0) {array[i] = "buzz"}
+    else {array[i] = value}
+    i++;
+  }
+  alert(array[3]);
+  alert(array[10]);
+  alert(array[17]);
+  alert(array[30]);
+}
+
+myMain();
+************************************************************************
+
+5aee65c73a109ccc0e741aa3 parks17
+"use strict";
+
+function myMain() {
+  var i=0;
+  var array = [];
+  var value;
+  array[0] = 0;
+  for (i=1; i<31; i++) {
+    value = i;
+    if (value%3===0 && value%5===0) {array[i] = "fizzbuzz"}
+    else if (value%3===0) {array[i] = "fizz"}
+    else if (value%5===0) {array[i] = "buzz"}
+    else {array[i] = value}
+    i++;
+  }
+  alert(array[3]);
+  alert(array[10]);
+  alert(array[17]);
+  alert(array[30]);
+}
+
+myMain();
+************************************************************************
+
+5aee65de3a109ccc0e741aa4 parks17
+"use strict";
+
+function myMain() {
+  var i=0;
+  var array = [];
+  var value;
+  array[0] = 0;
+  for (i=1; i<31; i++) {
+    value = i;
+    if (value%3===0 && value%5===0) {array[i] = "fizzbuzz"}
+    else if (value%3===0) {array[i] = "fizz"}
+    else if (value%5===0) {array[i] = "buzz"}
+    else {array[i] = value}
+    i++;
+  }
+  alert(array[4]);
+  alert(array[11]);
+  alert(array[18]);
+  alert(array[31]);
+}
+
+myMain();
+************************************************************************
+
+5aee69323a109ccc0e741aad parks17
+"use strict";
+
+function myMain() {
+  var i=0;
+  var array = [];
+  var value;
+  array[0] = 0;
+  for (i=1; i<30; i++) {
+    value = i;
+    if (value%3===0 && value%5===0) {array[i] = "fizzbuzz"}
+    else if (value%3===0) {array[i] = "fizz"}
+    else if (value%5===0) {array[i] = "buzz"}
+    else {array[i] = value}
+  }
+  alert(array[3]);
+  alert(array[10]);
+  alert(array[17]);
+  alert(array[30]);
+}
+
+myMain();
+************************************************************************
+
+5aee696f3a109ccc0e741aae parks17
+"use strict";
+
+function myMain() {
+  var i=0;
+  var array = [];
+  var value;
+  array[0] = 0;
+  for (i=1; i<30; i++) {
+    value = i;
+    if (value%3===0 && value%5===0) {array[i] = "fizzbuzz"}
+    else if (value%3===0) {array[i] = "fizz"}
+    else if (value%5===0) {array[i] = "buzz"}
+    else {array[i] = value}
+  }
+  alert(array[4]);
+  alert(array[11]);
+  alert(array[18]);
+  alert(array[30]);
+}
+
+myMain();
+************************************************************************
+
+5aee69b13a109ccc0e741aaf parks17
+"use strict";
+
+function myMain() {
+  var i;
+  var array = [];
+  var value;
+  array[0] = 0;
+  for (i=1; i<30; i++) {
+    value = i;
+    if (value%3===0 && value%5===0) {array[i] = "fizzbuzz"}
+    else if (value%3===0) {array[i] = "fizz"}
+    else if (value%5===0) {array[i] = "buzz"}
+    else {array[i] = value}
+  }
+  alert(array[3]);
+  alert(array[10]);
+  alert(array[17]);
+  alert(array[30]);
+}
+
+myMain();
+************************************************************************
+
