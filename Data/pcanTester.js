@@ -6,7 +6,7 @@ const ast = require("./submissionAST.json");
 function runTest() {
 
     var returnObj = pcan.collectStructureStyleFacts(ast);
-    console.log(returnObj, ast.source);
+    console.log(returnObj);
 }
 
 function runPnut() {

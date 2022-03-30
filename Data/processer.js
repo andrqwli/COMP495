@@ -1,11 +1,12 @@
 const problemData = require('./problemsArray.json');
-const submissionData = require("./submissionsArray.json");
+const submissionData = require("./SubmissionsArrays/submissionsArray.json");
 const oneInputProblemData = require("./oneInputProblems.json");
 const submissionsByProblemData = require("./submissionsByProblem.json");
 const oneInputSubmissionData = require("./oneInputSubmissions.json");
 const pcan = require('./pcan');
 const acorn = require('../MACHLEARN/acorn');
-const fizzBuzzId = "544a3ed88afe161613542b90";
+const fizzBuzzId = "544a3ed88afe161613542b90"; // fizzbuzz 
+const forLoopId = "540e6754cd837ce46e7d899d", // for loop output
 const separator = "************************************************************************\n";
 
 
@@ -204,6 +205,6 @@ function printSourceCode(id, isCorrect) {
 
 }
 
-//addFacts();
+addFacts();
 
-printSourceCode(fizzBuzzId, false);
+//printSourceCode(fizzBuzzId, false);

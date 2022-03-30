@@ -21,6 +21,7 @@
 //------------------------------------------------------------------------
 
 const walk = require("acorn-walk");
+const { resourceUsage } = require("process");
 
 // global "package" name is pcan
 
@@ -47,8 +48,12 @@ var pcan = (function () {
             /****************************************/
 
             conFLVarIdent: consistentLoopVariableIdentifier(ast).isConsistent,
-            cFLBounds: correctForLoopBounds(ast),
+            cFLUBound: correctForLoopUpperBound(ast),
             nFLVarAsIB: numForLoopVarAssignmentInBlock(ast),
+            cASIdx: correctAlertStatementIndices(ast),
+            fLStartIdx: forLoopStartIndex(ast),
+            firstElInitZero: firstElementInitializedZero(ast),
+
             
         }
 
@@ -188,7 +193,7 @@ var pcan = (function () {
         };
     }
 
-    function correctForLoopBounds(ast) {
+    function correctForLoopUpperBound(ast) {
         if (!consistentLoopVariableIdentifier(ast).isConsistent) { return false; }
         
         var key = {
@@ -207,11 +212,6 @@ var pcan = (function () {
         })
 
         return true;
-    }
-
-    return {
-        collectStructureStyleFacts: collectStructureStyleFacts,
-        test: "test",
     }
 
     function numForLoopVarAssignmentInBlock(ast) {
@@ -248,6 +248,139 @@ var pcan = (function () {
         })
 
         return count;
+    }
+
+    function correctAlertStatementIndices(ast) {
+        if (numAlertStatements(ast) != 4) {
+            return false;
+        }
+
+        var correct = [3, 10, 17, 30];
+        var correctIndex = 0;
+        var currVal;
+
+        walk.full(ast, node => {
+            if (!correctIndex < correct.length) {
+                return true;
+            }
+            
+            currVal = correct[correctIndex];
+            
+            if (node.type == "ExpressionStatement") {
+                if (node.expression.type == "CallExpression" && node.expression.callee.name == "alert") {
+                    if (node.expression.arguments[0].type == "MemberExpression") {
+                        // literal access, check if the index is correct
+                        if (node.expression.arguments[0].property.type == "Literal") {
+                            if (node.expression.arguments[0].property.value == currVal) {
+                                correctIndex++;
+                            } else {
+                                return false;
+                            }
+
+                        // binary expression access, check if its in the form of "{currVal+1} - 1"    
+                        } else if (node.expression.arguments[0].property.type == "BinaryExpression") {
+                            var currNode = node.expreesion.arguments[0].property;
+                            
+                            // check if right side is "- 1"
+                            if (currNode.operator == "-" && currNode.right.value == 1){
+                                
+                                // check if the left side is a literal
+                                if (currNode.left.type == "Literal") {
+                                    if (currNode.left.value == currVal+1) {
+                                        correctIndex++;
+                                    } else { return false; }
+
+                                //check if the left side is .length    
+                                } else if (currNode.left.type == "MemberExpression") {
+                                    
+                                    // this case is only for the last element, so currVal should be 30
+                                    if (currVal == 30 && currNode.left.property.name == "length") {
+                                        correctIndex++;
+                                    } else { return false; }
+
+                                } else { return false };
+
+                            } else { return false; }
+                        }
+                    }
+                }
+            }
+        })
+
+        return true;
+    }
+    
+    function forLoopStartIndex(ast) {
+        // checks to see if the loop var is initialized to 0. 0 values mean that the variable was initialized before being used in the for loop init statement
+        var out = false;
+        walk.full(ast, node => {
+            if (node.type == "ForStatement") {
+                // for (var i = 0;...)
+                if (node.init.type == "VariableDeclaration") {
+                    currNode = node.init.declarations[0];
+                    if (currNode.type == "VariableDeclarator") {
+
+                        out = currNode.init.value == 1;
+                        //return currNode.init.value == 1;
+
+                    }
+                }
+                
+                // var i;
+                // for (i = 0;...)
+                if (node.init.type == "AssignmentExpression") {
+                    out = node.init.right.value == 1;
+                    //return node.init.right.value == 1;
+                }
+
+                if (node.init.type == "Identifier") {
+                    out = 0;
+                    //return 0;
+                }
+            }
+        })
+
+        return out;
+    }
+
+    function firstElementInitializedZero(ast) {
+        var out = false;
+        walk.full(ast, node => {
+            // var arr = [0];
+            if (node.type == "VariableDeclaration") {
+                var currNode = node.declarations[0];
+                if (currNode.type == "VariableDeclarator" && currNode.init != null) {
+
+                    if (currNode.init.type == "ArrayExpression") {
+                        if (currNode.init.elements.length > 0 && currNode.init.elements[0].value == 0) {
+                            out = true;
+                        }
+                    }
+                }
+            }
+
+            // var arr = [];
+            // ...
+            // arr[0] = 0;
+            if (node.type == "ExpressionStatement") {
+                if (node.expression.type == "AssignmentExpression") {
+                    if (node.expression.operator == "=") {
+                        var leftNode = node.expression.left;
+                        if (leftNode.type == "MemberExpression" && leftNode.property.value == 0) {
+                            if (node.expression.right.value == 0) {
+                                out = true;
+                            }
+                        }
+                    }
+                }
+            }
+        })
+
+        return out;
+    }
+
+    return {
+        collectStructureStyleFacts: collectStructureStyleFacts,
     }
 
 })  // end anonymous function declaration 

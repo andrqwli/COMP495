@@ -17,8 +17,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -36,8 +39,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -55,8 +61,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -74,8 +83,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -93,8 +105,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -112,8 +127,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -131,8 +149,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -150,8 +171,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -169,8 +193,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -188,8 +215,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -207,8 +237,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -226,8 +259,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -245,8 +281,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -264,8 +303,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -283,8 +325,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -302,8 +347,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -321,8 +369,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -340,8 +391,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -359,8 +413,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -378,8 +435,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -397,8 +457,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -416,8 +479,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -435,8 +501,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -454,8 +523,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             }
         ],
@@ -475,8 +547,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -494,8 +569,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -513,8 +591,11 @@
                     "nAccInit": 0,
                     "nAS": 0,
                     "conFLVarIdent": false,
-                    "cFLBounds": false,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": false,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -532,8 +613,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -551,8 +635,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -570,8 +657,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -589,8 +679,11 @@
                     "nAccInit": 0,
                     "nAS": 2,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -608,8 +701,11 @@
                     "nAccInit": 0,
                     "nAS": 2,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -627,8 +723,11 @@
                     "nAccInit": 0,
                     "nAS": 3,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -646,8 +745,11 @@
                     "nAccInit": 0,
                     "nAS": 3,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -665,8 +767,11 @@
                     "nAccInit": 0,
                     "nAS": 2,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -684,8 +789,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -703,8 +811,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -722,8 +833,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -741,8 +855,11 @@
                     "nAccInit": 0,
                     "nAS": 2,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -760,8 +877,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -779,8 +899,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -798,8 +921,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -817,8 +943,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -836,8 +965,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -855,8 +987,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -874,8 +1009,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -893,8 +1031,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -912,8 +1053,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -931,8 +1075,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -950,8 +1097,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -969,8 +1119,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -988,8 +1141,11 @@
                     "nAccInit": 0,
                     "nAS": 2,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1007,8 +1163,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1026,8 +1185,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1045,8 +1207,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1064,8 +1229,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1083,8 +1251,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1102,8 +1273,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1121,8 +1295,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1140,8 +1317,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1159,8 +1339,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1178,8 +1361,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1197,8 +1383,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1216,8 +1405,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1235,8 +1427,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1254,8 +1449,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1273,8 +1471,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1292,8 +1493,11 @@
                     "nAccInit": 0,
                     "nAS": 2,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1311,8 +1515,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1330,8 +1537,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1349,8 +1559,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1368,8 +1581,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1387,8 +1603,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1406,8 +1625,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1425,8 +1647,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1444,8 +1669,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1463,8 +1691,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1482,8 +1713,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1501,8 +1735,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1520,8 +1757,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1539,8 +1779,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1558,8 +1801,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1577,8 +1823,11 @@
                     "nAccInit": 0,
                     "nAS": 2,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             }
         ],
@@ -1604,8 +1853,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -1623,8 +1875,11 @@
                     "nAccInit": 0,
                     "nAS": 8,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -1642,8 +1897,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -1661,8 +1919,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1680,8 +1941,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -1699,8 +1963,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1718,8 +1985,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -1737,8 +2007,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -1756,8 +2029,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -1775,8 +2051,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -1794,8 +2073,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": false,
-                    "cFLBounds": false,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": false,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -1813,8 +2095,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1832,8 +2117,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1851,8 +2139,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1870,8 +2161,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1889,8 +2183,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             }
         ],
@@ -1910,8 +2207,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -1929,8 +2229,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1948,8 +2251,11 @@
                     "nAccInit": 0,
                     "nAS": 5,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -1967,8 +2273,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -1986,8 +2295,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2005,8 +2317,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2024,8 +2339,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2043,8 +2361,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2062,8 +2383,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2081,8 +2405,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2100,8 +2427,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2119,8 +2449,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2138,8 +2471,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2157,8 +2493,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2176,8 +2515,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2195,8 +2537,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2214,8 +2559,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2233,8 +2581,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2252,8 +2603,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2271,8 +2625,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2290,8 +2647,11 @@
                     "nAccInit": 0,
                     "nAS": 5,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2309,8 +2669,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2328,8 +2691,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2347,8 +2713,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2366,8 +2735,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2385,8 +2757,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2404,8 +2779,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2423,8 +2801,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2442,8 +2823,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2461,8 +2845,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2480,8 +2867,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2499,8 +2889,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2518,8 +2911,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2537,8 +2933,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2556,8 +2955,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2575,8 +2977,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2594,8 +2999,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2613,8 +3021,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2632,8 +3043,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2651,8 +3065,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2670,8 +3087,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2689,8 +3109,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2708,8 +3131,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2727,8 +3153,11 @@
                     "nAccInit": 0,
                     "nAS": 3,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2746,8 +3175,11 @@
                     "nAccInit": 0,
                     "nAS": 3,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2765,8 +3197,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2784,8 +3219,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2803,8 +3241,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2822,8 +3263,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2841,8 +3285,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2860,8 +3307,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2879,8 +3329,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2898,8 +3351,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2917,8 +3373,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2936,8 +3395,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -2955,8 +3417,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2974,8 +3439,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -2993,8 +3461,11 @@
                     "nAccInit": 0,
                     "nAS": 1,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": false,
+                    "fLStartIdx": false,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -3012,8 +3483,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": false
                 }
             },
             {
@@ -3031,8 +3505,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -3050,8 +3527,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -3069,8 +3549,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -3088,8 +3571,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             },
             {
@@ -3107,8 +3593,11 @@
                     "nAccInit": 0,
                     "nAS": 4,
                     "conFLVarIdent": true,
-                    "cFLBounds": true,
-                    "nFLVarAsIB": 0
+                    "cFLUBound": true,
+                    "nFLVarAsIB": 0,
+                    "cASIdx": true,
+                    "fLStartIdx": true,
+                    "firstElInitZero": true
                 }
             }
         ],
