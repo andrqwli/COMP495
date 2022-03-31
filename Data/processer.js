@@ -1,12 +1,18 @@
-const problemData = require('./problemsArray.json');
+const problemData = require('./Problems/problemsArray.json');
 const submissionData = require("./SubmissionsArrays/submissionsArray.json");
+const submissionf19 = require("./SubmissionsArrays/submissionf19Array.json");
+const submissionm19 = require("./SubmissionsArrays/submissionm19Array.json");
+const submissions20 = require("./SubmissionsArrays/submissions20Array.json");
 const oneInputProblemData = require("./oneInputProblems.json");
-const submissionsByProblemData = require("./submissionsByProblem.json");
-const oneInputSubmissionData = require("./oneInputSubmissions.json");
+const submissionsByProblemData = require("./SubmissionsByProblem/submissionsByProblem.json");
+const submissionsf19ByProblem = require("./SubmissionsByProblem/submissionf19ByProblem.json");
+const submissionsm19ByProblem = require("./SubmissionsByProblem/submissionm19ByProblem.json");
+const submissionss20ByProblem = require("./SubmissionsByProblem/submissions20ByProblem.json");
+const oneInputSubmissionData = require("./OneInputSubmissions/oneInputSubmissions.json");
 const pcan = require('./pcan');
 const acorn = require('../MACHLEARN/acorn');
 const fizzBuzzId = "544a3ed88afe161613542b90"; // fizzbuzz 
-const forLoopId = "540e6754cd837ce46e7d899d", // for loop output
+const forLoopId = "540e6754cd837ce46e7d899d"; // for loop output
 const separator = "************************************************************************\n";
 
 
@@ -52,9 +58,9 @@ function processSubmissions() {
     })
 }
 
-function createSubmissionMap() {
+function createSubmissionMap(data) {
     let retObj = {};
-    submissionData.forEach(submission => {
+    data.forEach(submission => {
         if (submission._id != undefined && submission._id.$oid != null && submission.problem != null && submission.code != null) {
             var submissionObj = {
                 submissionId: submission._id.$oid,
@@ -115,7 +121,7 @@ function oneInputProblems() {
     })
 }
 
-function oneInputSubmission() {
+function oneInputSubmission(submissionDataSet) {
     let ret = new Map();
     oneInputProblemData.problems.forEach((problem) => {
         ret.set(problem._id.$oid, {
@@ -127,10 +133,10 @@ function oneInputSubmission() {
             totalCount: 0,
         });
 
-        if (submissionsByProblemData[problem._id.$oid] == undefined) {
+        if (submissionDataSet[problem._id.$oid] == undefined) {
             console.log(problem._id.$oid);
         } else {
-            submissionsByProblemData[problem._id.$oid].forEach((submission) => {
+            submissionDataSet[problem._id.$oid].forEach((submission) => {
                 // var code = submission.code;
                 // console.log(code);
                 // submission.facts = pcan.collectStructureStyleFacts(acorn.parse(code));
@@ -152,11 +158,10 @@ function oneInputSubmission() {
         return (a[1].totalCount) - (b[1].totalCount);
     }));
 
-    console.log(retSorted);
     const retObj = Object.fromEntries(ret);
 
     var fs = require('fs');
-    fs.writeFile("oneInputSubmissions.json", JSON.stringify(retObj, null, 4), function(err, result) {
+    fs.writeFile("oneInputSubmissionsm19.json", JSON.stringify(retObj, null, 4), function(err, result) {
         if(err) console.log('error', err);
     })
 
@@ -205,6 +210,8 @@ function printSourceCode(id, isCorrect) {
 
 }
 
-addFacts();
+oneInputSubmission(submissionsm19ByProblem);
+
+//addFacts();
 
 //printSourceCode(fizzBuzzId, false);
