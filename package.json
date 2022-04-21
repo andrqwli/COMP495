@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "acorn-walk": "^8.2.0",
+    "ml-kmeans": "^5.0.0"
+  }
+}
