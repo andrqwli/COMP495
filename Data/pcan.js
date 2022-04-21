@@ -54,7 +54,7 @@ var pcan = (function () {
             fLStartIdx: forLoopStartIndex(ast),
             firstElInitZero: firstElementInitializedZero(ast),
 
-            
+            /****************************************/ 
         }
 
         return dObj;
@@ -174,27 +174,27 @@ var pcan = (function () {
                 // check for test to include identifier
                 if (node.test.type == "BinaryExpression" && identifier != "") {
                     if (node.test.left.type != "Identifer" || node.test.left.name != indentifier) {
-                        return false;
+                        return 0; 
                     }
-                } else { return false; }
+                } else { return 0; }
 
                 // check for update to include identifier
                 if (node.update.type == "UpdateExpression" && identifier != "") {
                     if (node.update.argument.type != "Identifier" || node.update.argument.name != identifier) {
-                        return false;
+                        return 0;
                     }
-                } else { return false; }
+                } else { return 0; }
             }
         })
 
         return {
-            isConsistent: identifier != "",
+            isConsistent: identifier != "" ? 1 : 0,
             value: identifier,
         };
     }
 
     function correctForLoopUpperBound(ast) {
-        if (!consistentLoopVariableIdentifier(ast).isConsistent) { return false; }
+        if (!consistentLoopVariableIdentifier(ast).isConsistent) { return 0; }
         
         var key = {
             "<": 31,
@@ -205,13 +205,13 @@ var pcan = (function () {
             if (node.type == "ForStatement") {
                 if (node.test.type == "BinaryExpression") {
                     if (key[node.test.operator] != node.test.right.value) {
-                        return false;
+                        return 0;
                     }
                 }
             }
         })
 
-        return true;
+        return 1;
     }
 
     function numForLoopVarAssignmentInBlock(ast) {
@@ -252,7 +252,7 @@ var pcan = (function () {
 
     function correctAlertStatementIndices(ast) {
         if (numAlertStatements(ast) != 4) {
-            return false;
+            return 0;
         }
 
         var correct = [3, 10, 17, 30];
@@ -261,7 +261,7 @@ var pcan = (function () {
 
         walk.full(ast, node => {
             if (!correctIndex < correct.length) {
-                return true;
+                return 1;
             }
             
             currVal = correct[correctIndex];
@@ -274,7 +274,7 @@ var pcan = (function () {
                             if (node.expression.arguments[0].property.value == currVal) {
                                 correctIndex++;
                             } else {
-                                return false;
+                                return 0;
                             }
 
                         // binary expression access, check if its in the form of "{currVal+1} - 1"    
@@ -288,7 +288,7 @@ var pcan = (function () {
                                 if (currNode.left.type == "Literal") {
                                     if (currNode.left.value == currVal+1) {
                                         correctIndex++;
-                                    } else { return false; }
+                                    } else { return 0; }
 
                                 //check if the left side is .length    
                                 } else if (currNode.left.type == "MemberExpression") {
@@ -296,18 +296,18 @@ var pcan = (function () {
                                     // this case is only for the last element, so currVal should be 30
                                     if (currVal == 30 && currNode.left.property.name == "length") {
                                         correctIndex++;
-                                    } else { return false; }
+                                    } else { return 0; }
 
-                                } else { return false };
+                                } else { return 0};
 
-                            } else { return false; }
+                            } else { return 0; }
                         }
                     }
                 }
             }
         })
 
-        return true;
+        return 1;
     }
     
     function forLoopStartIndex(ast) {
@@ -340,7 +340,7 @@ var pcan = (function () {
             }
         })
 
-        return out;
+        return out ? 1 : 0;
     }
 
     function firstElementInitializedZero(ast) {
@@ -376,16 +376,29 @@ var pcan = (function () {
             }
         })
 
-        return out;
+        return out ? 1 : 0;
     }
+
+    //function factArray() {
+        //var factObj = collectStructureStyleFacts();
+        //var factArr = [];
+        
+        //for (const key in factObj) {
+            //factArr.push(factObj[key]);
+        //}
+
+        //return factArr;
+    //}
 
     return {
         collectStructureStyleFacts: collectStructureStyleFacts,
+        //factArray: factArray,
     }
 
 })  // end anonymous function declaration 
 (); // now run it to create and return the object with all the methods
 
 module.exports = {
-    collectStructureStyleFacts: (ast) => pcan.collectStructureStyleFacts(ast)
+    collectStructureStyleFacts: (ast) => pcan.collectStructureStyleFacts(ast),
+    //factArray: () => pcan.factArray()
 }

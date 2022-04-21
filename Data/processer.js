@@ -9,6 +9,7 @@ const submissionsf19ByProblem = require("./SubmissionsByProblem/submissionf19ByP
 const submissionsm19ByProblem = require("./SubmissionsByProblem/submissionm19ByProblem.json");
 const submissionss20ByProblem = require("./SubmissionsByProblem/submissions20ByProblem.json");
 const oneInputSubmissionData = require("./OneInputSubmissions/oneInputSubmissions.json");
+const submissionsWithFacts = require("./submissionsWithFacts.json");
 const pcan = require('./pcan');
 const acorn = require('../MACHLEARN/acorn');
 const fizzBuzzId = "544a3ed88afe161613542b90"; // fizzbuzz 
@@ -181,11 +182,13 @@ function addFacts() {
             var AST = acorn.parse(submission.code);
             var facts = pcan.collectStructureStyleFacts(AST);
             submission.facts = facts;
+            submission.factArr = Object.values(facts); 
         })
         retObj[id].incorrect.forEach(submission => {
             var AST = acorn.parse(submission.code);
             var facts = pcan.collectStructureStyleFacts(AST);
             submission.facts = facts;
+            submission.factArr = Object.values(facts); 
         })
     })
 
@@ -210,8 +213,23 @@ function printSourceCode(id, isCorrect) {
 
 }
 
-oneInputSubmission(submissionsm19ByProblem);
+function createFactArray() {
+    const fizzBuzz = submissionsWithFacts[fizzBuzzId];
+    var arr = [];
+    fizzBuzz.correct.forEach(submission => {
+        arr.push(submission.factArr);
+    })
 
-//addFacts();
+    fizzBuzz.incorrect.forEach(submission => {
+        arr.push(submission.factArr);
+    })
 
+    var retObj = {arr: arr};
+    var fs = require('fs');
+    fs.writeFile("arrayOfFacts.json", JSON. stringify(retObj, null, 4), function(err, result) {
+        if(err) console.log('error', err);
+    })
+}
+
+createFactArray();
 //printSourceCode(fizzBuzzId, false);

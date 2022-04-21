@@ -16,13 +16,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "593bf871c28ced7e128a6eb9",
@@ -38,13 +51,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "593bf8b9c28ced7e128a6ebb",
@@ -60,13 +86,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "593bf8c5c28ced7e128a6ebc",
@@ -82,13 +121,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a89f08ccce6d6673667e506",
@@ -104,13 +156,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a8f1af9cce6d6673667e627",
@@ -126,13 +191,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a70005074dd43fe0bb9a50f",
@@ -148,13 +226,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a70ea3074dd43fe0bb9a544",
@@ -170,13 +261,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7155b874dd43fe0bb9a566",
@@ -192,13 +296,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a728b7c74dd43fe0bb9a5a1",
@@ -214,13 +331,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a73237074dd43fe0bb9a5a6",
@@ -236,13 +366,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a75015074dd43fe0bb9a62b",
@@ -258,13 +401,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a75ecf574dd43fe0bb9a64e",
@@ -280,13 +436,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a77302d74dd43fe0bb9a678",
@@ -302,13 +471,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a776a2b74dd43fe0bb9a6ab",
@@ -324,13 +506,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a776c7e74dd43fe0bb9a6b0",
@@ -346,13 +541,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a73233974dd43fe0bb9a5a5",
@@ -368,13 +576,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a77b1ef74dd43fe0bb9a6ed",
@@ -390,13 +611,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a77e4be74dd43fe0bb9a719",
@@ -412,13 +646,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7d4e62cce6d6673667e249",
@@ -434,13 +681,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a9b1c42e7c26488726d3738",
@@ -456,13 +716,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7fa1f0cce6d6673667e2b6",
@@ -478,13 +751,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aff1d8cb72190495d1aebe5",
@@ -500,13 +786,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5ab6b0f977656f940f841824",
@@ -522,13 +821,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             }
         ],
         "incorrect": [
@@ -546,13 +858,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5920f833a38faa76408c6af1",
@@ -568,13 +893,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a81eb1fcce6d6673667e3d1",
@@ -590,13 +928,26 @@
                     "nFLIncS": 0,
                     "nAccInit": 0,
                     "nAS": 0,
-                    "conFLVarIdent": false,
-                    "cFLUBound": false,
+                    "conFLVarIdent": 0,
+                    "cFLUBound": 0,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a81ec15cce6d6673667e3d2",
@@ -612,13 +963,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a81ec4dcce6d6673667e3d3",
@@ -634,13 +998,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a81eefdcce6d6673667e3d4",
@@ -656,13 +1033,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a81f06acce6d6673667e3d5",
@@ -678,13 +1068,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 2,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    2,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a83103ecce6d6673667e3da",
@@ -700,13 +1103,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 2,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    2,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a83108bcce6d6673667e3db",
@@ -722,13 +1138,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 3,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a831da7cce6d6673667e3dc",
@@ -744,13 +1173,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 3,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a831deccce6d6673667e3dd",
@@ -766,13 +1208,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 2,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    2,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a89f044cce6d6673667e505",
@@ -788,13 +1243,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a8f1a92cce6d6673667e625",
@@ -810,13 +1278,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a8f1aa1cce6d6673667e626",
@@ -832,13 +1313,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a9084e4cce6d6673667e652",
@@ -854,13 +1348,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 2,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    2,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a908595cce6d6673667e654",
@@ -876,13 +1383,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a70e9fe74dd43fe0bb9a542",
@@ -898,13 +1418,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a71cfe474dd43fe0bb9a56c",
@@ -920,13 +1453,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a71d09f74dd43fe0bb9a56d",
@@ -942,13 +1488,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a73222974dd43fe0bb9a5a4",
@@ -964,13 +1523,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a6b330b74dd43fe0bb9a398",
@@ -986,13 +1558,26 @@
                     "nFLIncS": 0,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a6b4d3274dd43fe0bb9a399",
@@ -1008,13 +1593,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a6b6afc74dd43fe0bb9a39b",
@@ -1030,13 +1628,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a6b6b6074dd43fe0bb9a39c",
@@ -1052,13 +1663,26 @@
                     "nFLIncS": 0,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a6b6b7974dd43fe0bb9a39d",
@@ -1074,13 +1698,26 @@
                     "nFLIncS": 0,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a6b6bd574dd43fe0bb9a39e",
@@ -1096,13 +1733,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a6b6f2a74dd43fe0bb9a39f",
@@ -1118,13 +1768,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a73cf5774dd43fe0bb9a60b",
@@ -1140,13 +1803,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 2,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    2,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a75012474dd43fe0bb9a62a",
@@ -1162,13 +1838,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a75ec8a74dd43fe0bb9a64b",
@@ -1184,13 +1873,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a75eca474dd43fe0bb9a64c",
@@ -1206,13 +1908,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a75ecdc74dd43fe0bb9a64d",
@@ -1228,13 +1943,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a764f3874dd43fe0bb9a669",
@@ -1250,13 +1978,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a764f6f74dd43fe0bb9a66a",
@@ -1272,13 +2013,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a77695574dd43fe0bb9a6a9",
@@ -1294,13 +2048,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7769a474dd43fe0bb9a6aa",
@@ -1316,13 +2083,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a70e9c574dd43fe0bb9a541",
@@ -1338,13 +2118,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a70ea0a74dd43fe0bb9a543",
@@ -1360,13 +2153,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7155a674dd43fe0bb9a565",
@@ -1382,13 +2188,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a73213274dd43fe0bb9a5a3",
@@ -1404,13 +2223,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7d4ca7cce6d6673667e247",
@@ -1426,13 +2258,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7d4e41cce6d6673667e248",
@@ -1448,13 +2293,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a9b1a6be7c26488726d3736",
@@ -1470,13 +2328,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a9b1b3ce7c26488726d3737",
@@ -1492,13 +2363,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 2,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    2,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7f9b74cce6d6673667e2a6",
@@ -1514,13 +2398,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7f9e6acce6d6673667e2af",
@@ -1536,13 +2433,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7f9e8bcce6d6673667e2b0",
@@ -1558,13 +2468,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7f9ef6cce6d6673667e2b1",
@@ -1580,13 +2503,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7f9f88cce6d6673667e2b2",
@@ -1602,13 +2538,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7fa055cce6d6673667e2b3",
@@ -1624,13 +2573,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7fa145cce6d6673667e2b4",
@@ -1646,13 +2608,26 @@
                     "nFLIncS": 0,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5a7fa19fcce6d6673667e2b5",
@@ -1668,13 +2643,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aff1d25b72190495d1aebe2",
@@ -1690,13 +2678,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aff1d52b72190495d1aebe3",
@@ -1712,13 +2713,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aff1d73b72190495d1aebe4",
@@ -1734,13 +2748,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5ab6b02a77656f940f841820",
@@ -1756,13 +2783,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5ab6b0d277656f940f841822",
@@ -1778,13 +2818,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5ab6b00177656f940f84181e",
@@ -1800,13 +2853,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5ab6b0b277656f940f841821",
@@ -1822,13 +2888,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 2,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    2,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             }
         ],
         "correctCount": 24,
@@ -1852,13 +2931,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "596d0fb7a69c32e7768f3361",
@@ -1874,13 +2966,26 @@
                     "nFLIncS": 2,
                     "nAccInit": 0,
                     "nAS": 8,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    2,
+                    2,
+                    2,
+                    0,
+                    8,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "596d0fc2a69c32e7768f3362",
@@ -1896,13 +3001,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "597f38edc7423e5827d50146",
@@ -1918,13 +3036,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aa325d977656f940f841535",
@@ -1940,13 +3071,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5aa4444677656f940f84157e",
@@ -1962,13 +3106,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aa5c5ed77656f940f8415b9",
@@ -1984,13 +3141,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "5aa5eaf077656f940f8415ec",
@@ -2006,13 +3176,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
+                    "cASIdx": 1,
                     "fLStartIdx": 0,
-                    "firstElInitZero": true
-                }
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5aa5eb0377656f940f8415ed",
@@ -2028,13 +3211,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
+                    "cASIdx": 1,
                     "fLStartIdx": 0,
-                    "firstElInitZero": true
-                }
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5aa5ed8c77656f940f8415f4",
@@ -2050,13 +3246,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab198f377656f940f8416ec",
@@ -2072,13 +3281,26 @@
                     "nFLIncS": 0,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": false,
-                    "cFLUBound": false,
+                    "conFLVarIdent": 0,
+                    "cFLUBound": 0,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    4,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab19a7577656f940f8416f2",
@@ -2094,13 +3316,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5ab3840377656f940f84177a",
@@ -2116,13 +3351,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5ab5129277656f940f8417c6",
@@ -2138,13 +3386,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5adcef563a109ccc0e74184e",
@@ -2160,13 +3421,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5aee69f83a109ccc0e741ab0",
@@ -2182,13 +3456,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             }
         ],
         "incorrect": [
@@ -2206,13 +3493,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "597f37bcc7423e5827d50144",
@@ -2228,13 +3528,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "597f38b7c7423e5827d50145",
@@ -2250,13 +3563,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 5,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    5,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5a9ef9c1e7c26488726d382d",
@@ -2272,13 +3598,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5a9efaa9e7c26488726d382e",
@@ -2294,13 +3633,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5a9efac7e7c26488726d382f",
@@ -2316,13 +3668,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5a9efb31e7c26488726d3830",
@@ -2338,13 +3703,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5a9efc3ee7c26488726d3831",
@@ -2360,13 +3738,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5a9efc5ee7c26488726d3832",
@@ -2382,13 +3773,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5a9efcf0e7c26488726d3833",
@@ -2404,13 +3808,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5a9efd2be7c26488726d3834",
@@ -2426,13 +3843,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5a9efe83e7c26488726d3835",
@@ -2448,13 +3878,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5a9f0000e7c26488726d3836",
@@ -2470,13 +3913,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5a9f038fe7c26488726d3838",
@@ -2492,13 +3948,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5a9f0432e7c26488726d3839",
@@ -2514,13 +3983,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5a9f0484e7c26488726d383a",
@@ -2536,13 +4018,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5aa1e18a77656f940f84151f",
@@ -2558,13 +4053,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aa1e1b877656f940f841522",
@@ -2580,13 +4088,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5aa1e1ed77656f940f841523",
@@ -2602,13 +4123,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5aa1e24677656f940f841525",
@@ -2624,13 +4158,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5aa1e26277656f940f841526",
@@ -2646,13 +4193,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 5,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    5,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5aa1e28977656f940f841527",
@@ -2668,13 +4228,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5aa1e2b577656f940f841528",
@@ -2690,13 +4263,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5aa3259077656f940f841533",
@@ -2712,13 +4298,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5aa325a477656f940f841534",
@@ -2734,13 +4333,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5aa3571677656f940f84154e",
@@ -2756,13 +4368,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aa3573677656f940f84154f",
@@ -2778,13 +4403,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aa3574d77656f940f841550",
@@ -2800,13 +4438,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aa3589277656f940f841552",
@@ -2822,13 +4473,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aa358a777656f940f841553",
@@ -2844,13 +4508,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aa358c677656f940f841554",
@@ -2866,13 +4543,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aa358cd77656f940f841555",
@@ -2888,13 +4578,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aa358ff77656f940f841556",
@@ -2910,13 +4613,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5ab1597b77656f940f8416d3",
@@ -2932,13 +4648,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab15b2d77656f940f8416d5",
@@ -2954,13 +4683,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab15c5c77656f940f8416d8",
@@ -2976,13 +4718,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab15c7c77656f940f8416d9",
@@ -2998,13 +4753,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab15cd877656f940f8416da",
@@ -3020,13 +4788,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab1981177656f940f8416e8",
@@ -3042,13 +4823,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab1983477656f940f8416e9",
@@ -3064,13 +4858,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab19a2677656f940f8416ef",
@@ -3086,13 +4893,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5ab19a3e77656f940f8416f0",
@@ -3108,13 +4928,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5ab19a4e77656f940f8416f1",
@@ -3130,13 +4963,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5ab3805477656f940f841772",
@@ -3152,13 +4998,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 3,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab3806777656f940f841773",
@@ -3174,13 +5033,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 3,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab3808977656f940f841774",
@@ -3196,13 +5068,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab380f277656f940f841775",
@@ -3218,13 +5103,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab3834077656f940f841776",
@@ -3240,13 +5138,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab3836777656f940f841777",
@@ -3262,13 +5173,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab3837577656f940f841778",
@@ -3284,13 +5208,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab3838177656f940f841779",
@@ -3306,13 +5243,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1
+                ]
             },
             {
                 "submissionId": "5ab470f077656f940f8417b8",
@@ -3328,13 +5278,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5ab511da77656f940f8417c5",
@@ -3350,13 +5313,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5ae107a53a109ccc0e7418a8",
@@ -3372,13 +5348,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aee65963a109ccc0e741aa1",
@@ -3394,13 +5383,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aee664b3a109ccc0e741aa5",
@@ -3416,13 +5418,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "5ae89d973a109ccc0e74196b",
@@ -3438,13 +5453,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "5aef53333a109ccc0e741b2c",
@@ -3460,13 +5488,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 1,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": false,
-                    "fLStartIdx": false,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 0,
+                    "fLStartIdx": 0,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
                 "submissionId": "5aee65b53a109ccc0e741aa2",
@@ -3482,13 +5523,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": false
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 0
+                },
+                "factArr": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0
+                ]
             },
             {
                 "submissionId": "5aee65c73a109ccc0e741aa3",
@@ -3504,13 +5558,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "5aee65de3a109ccc0e741aa4",
@@ -3526,13 +5593,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "5aee69323a109ccc0e741aad",
@@ -3548,13 +5628,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "5aee696f3a109ccc0e741aae",
@@ -3570,13 +5663,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             },
             {
                 "submissionId": "5aee69b13a109ccc0e741aaf",
@@ -3592,13 +5698,26 @@
                     "nFLIncS": 1,
                     "nAccInit": 0,
                     "nAS": 4,
-                    "conFLVarIdent": true,
-                    "cFLUBound": true,
+                    "conFLVarIdent": 1,
+                    "cFLUBound": 1,
                     "nFLVarAsIB": 0,
-                    "cASIdx": true,
-                    "fLStartIdx": true,
-                    "firstElInitZero": true
-                }
+                    "cASIdx": 1,
+                    "fLStartIdx": 1,
+                    "firstElInitZero": 1
+                },
+                "factArr": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    4,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ]
             }
         ],
         "correctCount": 16,
