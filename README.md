@@ -15,12 +15,26 @@ The purpose of this project is to create a tool that gives more specific debuggi
 
 ### Overview <a name="overview"></a>
 
-The MACHLEARN directory holds all of the raw data from past semesters. The cco-comp110-S18 directory contains bson files, of which problem.bson and submission.bson are used for problem and submission data from spring 2018. Each bson file is imported using mongo into .json arrays for use.
+The MACHLEARN directory holds all of the raw data from past semesters. The cco-comp110-S18 directory contains bson files, of which `problem.bson` and `submission.bson` are used for problem and submission data from spring 2018. Each bson file is imported using mongo into .json arrays for use.
 
-Acorn.js is the abstract syntax tree parser that is run on every submission code string. Pnut.js is a module used for AST autograding, and serves as the model for pcan.js, the module that is being used for fact collection.
+`acorn.js` is the abstract syntax tree parser that is run on every submission code string. `pnut.js` is a module used for AST autograding, and serves as the model for pcan.js, the module that is being used for fact collection.
 
 The Data directory contains all the other work done for this project. pcan.js is the module that is used to collect facts (both general and problem-specific) on submission code. At the moment the only problem-specific facts are for the FizzBuzz array problem. The sub-directories in Data store various .json objects. These files are created by functions in processer.js, which essentially step-by-step reformats the output from the raw bson files into .json objects that can be iterated through and and analyzed by pcan.js.
 
 ### Setup <a name="setup"></a>
 
+To set up this repository, clone it and run 
+
+```npm install```
+
+to install the correct dependencies. The only two dependencies should be `acorn-walk` and `ml-kmeans`.
+
 ### Use <a name="use"></a>
+
+To use the functions defined in files like `processer.js`, `acornTester.js`, `pcanTester.js` etc., use node in console as the bottom of the files should include function calls. 
+
+For example, if I wanted to run the `createFactArray()` function from `processer.js`, I would make sure that the function call exists in the bottom of the file and run 
+
+``` ../COMP495/Data (main) $ node processer.js```
+
+in the console.
