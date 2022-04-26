@@ -232,4 +232,3 @@ function createFactArray() {
 }
 
 createFactArray();
-//printSourceCode(fizzBuzzId, false);
