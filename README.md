@@ -33,6 +33,16 @@ To set up this repository, clone it and run
 
 to install the correct dependencies. The only two dependencies should be `acorn-walk` and `ml-kmeans`.
 
+To import another data set from .bson file format, ensure that you first have a mongo db set up. Then, use mongorestore <a href="https://stackoverflow.com/questions/6770498/how-to-import-bson-file-format-on-mongodb">like so</a> in the terminal to create the db:
+
+``` mongorestore -d [db name] -c [collection name] [path to .bson] ```
+
+Once the collection is created, use the <a href="https://stackoverflow.com/questions/8991292/dump-mongo-collection-into-json-format">mongoexport program</a> to output the db in the specified format using tags. To create the .json files in iterable array form (used in this repository with files like `problemsArray.json`, `submissionsArray.json`, etc.) first naviage to the desired destination directory, then use: 
+
+```mongoexport -d [db name] -c [collection name] --jsonArray -o [filename].json```
+
+Now your .bson file should be in your destination directory in array form.
+
 ## Use <a name="use"></a>
 
 To use the functions defined in files like `processer.js`, `acornTester.js`, `pcanTester.js`, `kmeans.js` etc., use node in console as the bottom of the files should include function calls.
