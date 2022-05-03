@@ -16,7 +16,7 @@ const fizzBuzzId = "544a3ed88afe161613542b90"; // fizzbuzz
 const forLoopId = "540e6754cd837ce46e7d899d"; // for loop output
 const separator = "************************************************************************\n";
 
-
+// takes the mongo output for problems and takes just the id and text and outputs a prettyprinted json
 function processProblems() {
     let count = 0;
     let processedArray = [];
@@ -38,6 +38,7 @@ function processProblems() {
     })
 }
 
+// similarly processes the submissions array from mongo into a readable .json file
 function processSubmissions() {
     let count = 0;
     let processedArray = []
@@ -59,6 +60,8 @@ function processSubmissions() {
     })
 }
 
+// sorts submissions by corresponding problem and outputs to .json
+// takes in an argument, added that in after I had to import from multiple submission .bson files
 function createSubmissionMap(data) {
     let retObj = {};
     data.forEach(submission => {
@@ -89,6 +92,7 @@ function createSubmissionMap(data) {
     
 }
 
+// filters problems into only ones that require a single input
 function oneInputProblems() {
     let processedArray = [];
     let tempArr = [];
@@ -122,6 +126,8 @@ function oneInputProblems() {
     })
 }
 
+// takes in a submission dataset and sorts them into submissions by problems that only require one input
+// also sorts submissions into correct and incorrect, as well as the number of each type
 function oneInputSubmission(submissionDataSet) {
     let ret = new Map();
     oneInputProblemData.problems.forEach((problem) => {
@@ -168,6 +174,8 @@ function oneInputSubmission(submissionDataSet) {
 
 }
 
+// given the ids of desired problems, parses the submission code string into an AST and then collects facts
+// using the pcan module and outputs to .json
 function addFacts() {
     var problemIds = [
         "540e6754cd837ce46e7d899d", // for loop output
@@ -199,6 +207,7 @@ function addFacts() {
 
 }
 
+// spits out source code readably into the console given desired problem id and submission correctness
 function printSourceCode(id, isCorrect) {
     var problemObj = oneInputSubmissionData[id];
     console.log(problemObj.text);
@@ -213,6 +222,9 @@ function printSourceCode(id, isCorrect) {
 
 }
 
+// converts the fact objects from each fizzbuzz submission into arrays in insertion order
+// also creates an array of submission ids, should also be in insertion order
+// TODO: currently hardcoded that it runs on the fizzbuzz problem, can be changed by adding an argument
 function createFactArray() {
     const fizzBuzz = submissionsWithFacts[fizzBuzzId];
     var factArr = [];
@@ -237,4 +249,5 @@ function createFactArray() {
     })
 }
 
+// put function calls here before running in console with node
 createFactArray();

@@ -379,20 +379,8 @@ var pcan = (function () {
         return out ? 1 : 0;
     }
 
-    //function factArray() {
-        //var factObj = collectStructureStyleFacts();
-        //var factArr = [];
-        
-        //for (const key in factObj) {
-            //factArr.push(factObj[key]);
-        //}
-
-        //return factArr;
-    //}
-
     return {
         collectStructureStyleFacts: collectStructureStyleFacts,
-        //factArray: factArray,
     }
 
 })  // end anonymous function declaration 
@@ -400,5 +388,4 @@ var pcan = (function () {
 
 module.exports = {
     collectStructureStyleFacts: (ast) => pcan.collectStructureStyleFacts(ast),
-    //factArray: () => pcan.factArray()
 }
