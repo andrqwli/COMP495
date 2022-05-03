@@ -19,7 +19,7 @@ The MACHLEARN directory holds all of the raw data from past semesters. The cco-c
 
 `acorn.js` is the abstract syntax tree parser that is run on every submission code string. `pnut.js` is a module used for AST autograding, and serves as the model for pcan.js, the module that is being used for fact collection.
 
-The Data directory contains all the other work done for this project. pcan.js is the module that is used to collect facts (both general and problem-specific) on submission code. At the moment the only problem-specific facts are for the FizzBuzz array problem. The sub-directories in Data store various .json objects. These files are created by functions in processer.js, which essentially step-by-step reformats the output from the raw bson files into .json objects that can be iterated through and and analyzed by pcan.js.
+The Data directory contains all the other work done for this project. pcan.js is the module that is used to collect facts (both general and problem-specific) on submission code. At the moment the only problem-specific facts are for the FizzBuzz array problem. The sub-directories in Data store various .json objects. These files are created by functions in processor.js, which essentially step-by-step reformats the output from the raw bson files into .json objects that can be iterated through and and analyzed by pcan.js.
 
 `oneInputProblems.json` is the filtered list of all problems that only require one input argument. The .json files in the `OneInputSubmissions` directory represent every submission from each semester for each of these single input problems. Of these problems, the FizzBuzz array and For Loop Output problems were selected to be analyzed, and most of the work done was for the FizzBuzz array problem. These problems were selected based on the high number of total submissions, as well as the distribution of correct and incorrect submissions (more incorrect submissions give more diverse data for potential bugs). The `submissionsWithFacts.json` file contains the submissions for these problems as well as the attached fact metadata.
 
@@ -45,10 +45,10 @@ Now your .bson file should be in your destination directory in array form.
 
 ## Use <a name="use"></a>
 
-To use the functions defined in files like `processer.js`, `acornTester.js`, `pcanTester.js`, `kmeans.js` etc., use node in console as the bottom of the files should include function calls.
+To use the functions defined in files like `processor.js`, `acornTester.js`, `pcanTester.js`, `kmeans.js` etc., use node in console as the bottom of the files should include function calls.
 
-For example, if I wanted to run the `createFactArray()` function from `processer.js`, I would make sure that the function call exists in the bottom of the file and run
+For example, if I wanted to run the `createFactArray()` function from `processor.js`, I would make sure that the function call exists in the bottom of the file and run
 
-``` ../COMP495/Data (main) $ node processer.js```
+``` ../COMP495/Data (main) $ node processor.js```
 
 in the console.
