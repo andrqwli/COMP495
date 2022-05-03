@@ -3,7 +3,7 @@ const submissionData = require("./SubmissionsArrays/submissionsArray.json");
 const submissionf19 = require("./SubmissionsArrays/submissionf19Array.json");
 const submissionm19 = require("./SubmissionsArrays/submissionm19Array.json");
 const submissions20 = require("./SubmissionsArrays/submissions20Array.json");
-const oneInputProblemData = require("./oneInputProblems.json");
+const oneInputProblemData = require("./Problems/oneInputProblems.json");
 const submissionsByProblemData = require("./SubmissionsByProblem/submissionsByProblem.json");
 const submissionsf19ByProblem = require("./SubmissionsByProblem/submissionf19ByProblem.json");
 const submissionsm19ByProblem = require("./SubmissionsByProblem/submissionm19ByProblem.json");
@@ -215,16 +215,22 @@ function printSourceCode(id, isCorrect) {
 
 function createFactArray() {
     const fizzBuzz = submissionsWithFacts[fizzBuzzId];
-    var arr = [];
+    var factArr = [];
+    var idArr = [];
     fizzBuzz.correct.forEach(submission => {
-        arr.push(submission.factArr);
+        factArr.push(submission.factArr);
+        idArr.push(submission.submissionId);
     })
 
     fizzBuzz.incorrect.forEach(submission => {
-        arr.push(submission.factArr);
+        factArr.push(submission.factArr);
+        idArr.push(submission.submissionId);
     })
 
-    var retObj = {arr: arr};
+    var retObj = {
+        factArr: factArr,
+        idArr: idArr
+    };
     var fs = require('fs');
     fs.writeFile("arrayOfFacts.json", JSON. stringify(retObj, null, 4), function(err, result) {
         if(err) console.log('error', err);
